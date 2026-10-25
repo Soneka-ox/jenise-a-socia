@@ -21,3 +21,7 @@ Confirmar com a cliente a redação final da biografia, denominações de cargos
 ## Vídeo e redes
 
 Incluídos o episódio Casa Capta enviado pelo responsável e o perfil incorporado @jenisecarvalho. Análise editorial em docs/analise-video-casa-capta.md. A transcrição foi consultada na interface do YouTube; sínteses e tempos selecionados aparecem no site. Os conteúdos externos são carregados mediante clique e mantêm links diretos alternativos.
+
+## Preferências visuais — revisão de 25/10/2026
+
+Foto em pé de branco na abertura; retrato sorrindo na seção de liderança. Ícones vetoriais consistentes, sem emojis na interface. Botões sociais ao fim da página somente com os logotipos de Instagram e LinkedIn, mantendo nomes acessíveis.

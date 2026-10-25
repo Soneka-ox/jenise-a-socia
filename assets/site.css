@@ -198,3 +198,18 @@ figure{margin:0}
 .episode-moments button>span>span{font-size:15px;line-height:1.6;display:block;color:var(--muted);margin-top:8px}
 @media(max-width:1000px){.media-grid{grid-template-columns:1fr 1fr;gap:22px}.video-description{padding:23px}.play-icon{margin:16px 0 10px;width:52px;height:52px}.video-prompt{font-size:23px}.instagram-card{padding:20px}.instagram-placeholder{padding:20px}.episode-notes{gap:30px}}
 @media(max-width:650px){.media-grid,.episode-notes{grid-template-columns:1fr}.media-grid{gap:26px}.video-description{padding:23px}.video-description h3{font-size:27px}.video-launch{padding:16px}.video-kicker{font-size:12px;letter-spacing:.9px}.play-icon{margin:12px 0 9px;width:45px;height:45px;font-size:18px}.video-prompt{font-size:22px}.video-duration{font-size:12px;margin-top:5px}.instagram-card{padding:23px}.instagram-slot iframe{height:420px}.episode-notes{margin-top:32px;padding-top:27px;gap:25px}.episode-moments button{grid-template-columns:44px 1fr 13px;gap:10px}.episode-intro>p:last-child{max-width:none}}
+
+/* Ícones vetoriais, sem glifos dependentes da fonte do sistema. */
+.ui-icon{display:inline-block;width:17px;height:17px;flex-shrink:0;vertical-align:middle}
+.menu .ui-icon{width:19px;height:19px}
+.article-arrow .ui-icon{width:22px;height:22px}
+.play-icon{padding-left:3px}
+.play-icon .ui-icon{width:26px;height:26px}
+.episode-moments button>.ui-icon{width:15px;height:15px;margin-top:4px}
+.social-links.social-icons{flex-direction:row;align-items:center;gap:18px}
+.social-links.social-icons a{justify-content:center;width:56px;height:56px;min-width:56px;padding:0;border-radius:50%;gap:0}
+.social-icon{display:block;width:24px;height:24px}
+.hero-photo img{object-position:50% 100%}
+
+.nav-contact>.ui-icon{margin-left:12px}
+.social-icons a:focus-visible{outline-color:var(--sand)}
