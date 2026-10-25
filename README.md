@@ -10,9 +10,10 @@ Não há dependências de build, formulário, analytics ou fontes externas. O v�
 
 ## Organização
 
-Três páginas com navegação compartilhada: Início, Sobre Jenise e Publicações. Vídeo permanece como uma seção da página inicial. Todas as páginas preservam os botões de logotipo de Instagram e LinkedIn no fim.
+Três páginas com navegação compartilhada: Início, Sobre Jenise e Publicações. Nas redes é uma seção da página inicial e reúne vídeo, Instagram e uma prévia oficial de A Sócia no LinkedIn. Todas as páginas preservam os botões de logotipo de Instagram e LinkedIn no fim.
 
 - `index.html`: abertura, apresentação breve, três destaques, newsletter, vídeo e Instagram.
+- A newsletter da inicial aparece uma única vez, dentro de Nas redes, no fragmento preservado `#abordagem`. O iframe exibe uma publicação pública selecionada do LinkedIn; novas edições exigem trocar o post, o link alternativo, o título e a data. O botão da newsletter continua levando ao acervo de A Sócia.
 - `sobre/index.html`: biografia, trajetória, formação, liderança e contribuições.
 - `publicacoes/index.html`: dez artigos selecionados, newsletter, entrevistas e menções institucionais.
 - `assets/site.css`: cores, tipografia e adaptação de telas.
