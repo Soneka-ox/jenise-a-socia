@@ -16,7 +16,7 @@ Informações selecionadas a partir das capturas fornecidas; detalhes incompleto
 As capturas de currículo, originais e análise detalhada permanecem em materiais-cliente/, fora do Git público. Só as quatro cópias das fotos selecionadas integram o site e o repositório.
 
 ## Próxima validação
-Confirmar com a cliente a redação final da biografia, denominações de cargos e formação IBGC 2026; definir marca oficial, finalidade comercial/editorial e contatos diretos, caso desejados. O monograma permanece provisório. Não há hospedagem ativa.
+Confirmar com a cliente a redação final da biografia, denominações de cargos e formação IBGC 2026; definir marca oficial, finalidade comercial/editorial e contatos diretos, caso desejados. O monograma permanece provisório. Publicado no GitHub Pages em 25/10/2026: https://soneka-ox.github.io/jenise-a-socia/ .
 
 ## Vídeo e redes
 

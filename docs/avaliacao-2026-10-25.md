@@ -14,7 +14,7 @@ Data: 25/10/2026. Avaliação editorial e visual, não auditoria formal de acess
 Abertura e biografia conferidas no computador; newsletter e menu conferidos em 390 px. Foto da liderança conferida no computador. Todas as imagens possuem dimensões e texto alternativo. Foto de abertura prioritária; demais sob demanda. Fotografias totalizam aproximadamente 626 KiB. Recortes só na apresentação; arquivos intactos.
 
 ## Limites
-Prévia local, sem hospedagem pública. As formações e experiências vêm das capturas fornecidas, sem autenticação independente de diplomas. Depoimentos incompletos não foram incluídos. Não foi executada auditoria com leitor de tela nem teste em dispositivo físico. O site mantém bloqueio de indexação enquanto está em validação.
+Site publicado no GitHub Pages em 25/10/2026. As formações e experiências vêm das capturas fornecidas, sem autenticação independente de diplomas. Depoimentos incompletos não foram incluídos. Não foi executada auditoria com leitor de tela nem teste em dispositivo físico. A página principal permite indexação após a publicação autorizada; a página 404 mantém noindex.
 
 ## Atualização: vídeo, Instagram e análise da fala
 
@@ -26,3 +26,9 @@ Prévia local, sem hospedagem pública. As formações e experiências vêm das 
 - Próximos ajustes: conferir em aparelhos físicos e no domínio final; disponibilidade de vídeo e perfil depende das plataformas. O perfil pode exigir autenticação conforme navegador/região e configuração da conta. Links alternativos permanecem visíveis.
 
 Player em modo de privacidade aprimorada (youtube-nocookie.com), conforme [documentação do YouTube](https://support.google.com/youtube/answer/171780?hl=en). Sem reprodução automática configurada. As duas integrações carregam mediante clique. Não há cópia local do vídeo ou dos posts, nem transcrição integral no site.
+
+## Publicação no GitHub Pages
+
+Endereço verificado: https://soneka-ox.github.io/jenise-a-socia/ . Publicação inicial concluída com sucesso pelo GitHub Actions. Página principal, estilos, scripts e quatro fotografias responderam por HTTPS. Âncoras válidas e metadados conferidos no site público. Menu móvel abriu e fechou ao navegar em 390 px, sem transbordamento. Vídeo e Instagram carregaram na página pública sem reprodução sonora. Página inexistente respondeu 404 com a mensagem personalizada.
+
+Nome do repositório mantido: jenise-a-socia. Título público e descrição do repositório atualizados. Avisos de prévia removidos. Domínio www.jeniseasocia.com.br e transferência para Jeniseasocia ficam para uma etapa futura. Permanecem pendentes validação editorial contínua e teste em aparelhos físicos.
