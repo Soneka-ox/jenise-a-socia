@@ -347,6 +347,18 @@ figure{margin:0}
 .linkedin-slot{background:white;border:1px solid var(--line)}
 .linkedin-slot iframe{display:block;width:100%;height:700px;border:0}
 .newsletter-preview-content>.text-link{margin-top:10px}
+.networks-nav{margin:0 0 28px;gap:8px 28px}
+.video-card:focus-visible,.instagram-card:focus-visible,.newsletter-preview:focus-visible{outline:3px solid var(--bronze);outline-offset:5px}
+@media(min-width:651px) and (max-width:900px){
+ .media-grid{grid-template-columns:1fr;gap:28px}
+ .instagram-card{width:100%;max-width:480px;justify-self:center}
+ .instagram-slot iframe{height:480px}
+ .video-description h3{font-size:30px}
+}
+@media(max-width:650px){
+ .networks-nav{gap:4px 22px;margin-bottom:24px}
+ .instagram-slot{margin-inline:-23px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+}
 @media(max-width:900px){.newsletter-preview{grid-template-columns:1fr;padding:26px;gap:24px}.newsletter-preview-copy>p:not(.eyebrow){max-width:620px}.newsletter-preview .newsletter-author{margin-bottom:20px}.linkedin-slot iframe{height:760px}}
 @media(max-width:650px){.newsletter-preview{padding:20px;margin-top:30px}.newsletter-preview h3{font-size:32px}.newsletter-preview .button{font-size:13px;padding:13px 15px}.newsletter-preview .newsletter-author{align-items:flex-start}.newsletter-preview .author-photo{width:52px;height:52px}.linkedin-slot{margin-inline:-20px}.linkedin-slot iframe{height:760px}}
 .themes-overview .section-heading{margin-bottom:18px}

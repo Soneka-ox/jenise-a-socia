@@ -1,6 +1,6 @@
 # Jenise Carvalho · A Sócia
 
-Site pessoal e editorial de Jenise Carvalho · A Sócia. Trajetória profissional, gestão e governança na advocacia, artigos, newsletter e vídeo.
+Site pessoal e editorial de Jenise Carvalho · A Sócia. Gestão & Carreira na advocacia, trajetória profissional, artigos, newsletter e conversas nas redes.
 
 ## Prévia local
 
@@ -24,6 +24,7 @@ Três páginas com navegação compartilhada: Início, Sobre Jenise e Publicaç�
 - `docs/avaliacao-2026-10-25.md`: avaliação e verificações da versão atual.
 - `docs/avaliacao-site-tres-paginas-2026-10-25.md`: avaliação da estrutura atual em três páginas, verificações e prioridades futuras.
 - `docs/revisao-usabilidade-2026-10-25.md`: revisão mais recente, com fontes, correções de teclado, formação, carregamento e compartilhamento.
+- `docs/revisao-nas-redes-2026-10-25.md`: revisão posterior à inclusão das prévias nativas, com atalhos, ajustes em tablet/celular e conferência de textos.
 - `docs/catalogo-publicacoes-2026-10-25.md`: pesquisa de publicações, autoria, datas e itens pendentes de confirmação.
 
 ## Manutenção

@@ -26,7 +26,7 @@ document.addEventListener('keydown', event => {
 window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
 
 
-// Conteúdos externos só são solicitados após uma ação do visitante.
+// O player do YouTube só é solicitado após uma ação do visitante.
 const videoSlot = document.querySelector('#video-player');
 function loadEpisode(start) {
   if (!videoSlot) return;
