@@ -12,6 +12,8 @@ Não há dependências de build, formulário, analytics ou fontes externas. O v�
 
 Três páginas com navegação compartilhada: Início, Sobre Jenise e Publicações. Nas redes é uma seção da página inicial e reúne vídeo, Instagram e uma prévia oficial de A Sócia no LinkedIn. Todas as páginas preservam os botões de logotipo de Instagram e LinkedIn no fim.
 
+Com JavaScript, Nas redes apresenta um canal por vez nas abas Vídeo, Instagram e Newsletter. Sem JavaScript, os três continuam no HTML e os atalhos são links comuns. Fragmentos antigos e links para elementos internos selecionam o painel correspondente. Trocar de canal remove um player do YouTube carregado e restaura a capa, para interromper a reprodução.
+
 - `index.html`: abertura, apresentação breve, três destaques, newsletter, vídeo e Instagram.
 - A newsletter da inicial aparece uma única vez, dentro de Nas redes, no fragmento preservado `#abordagem`. O iframe exibe uma publicação pública selecionada do LinkedIn; novas edições exigem trocar o post, o link alternativo, o título e a data. O botão da newsletter continua levando ao acervo de A Sócia.
 - `sobre/index.html`: biografia, trajetória, formação, liderança e contribuições.
@@ -25,6 +27,7 @@ Três páginas com navegação compartilhada: Início, Sobre Jenise e Publicaç�
 - `docs/avaliacao-site-tres-paginas-2026-10-25.md`: avaliação da estrutura atual em três páginas, verificações e prioridades futuras.
 - `docs/revisao-usabilidade-2026-10-25.md`: revisão mais recente, com fontes, correções de teclado, formação, carregamento e compartilhamento.
 - `docs/revisao-nas-redes-2026-10-25.md`: revisão posterior à inclusão das prévias nativas, com atalhos, ajustes em tablet/celular e conferência de textos.
+- `docs/refinamento-design-2026-10-25.md`: alinhamentos comuns, hierarquia de títulos, entrada compacta do acervo e abas dos canais.
 - `docs/catalogo-publicacoes-2026-10-25.md`: pesquisa de publicações, autoria, datas e itens pendentes de confirmação.
 
 ## Manutenção
@@ -36,6 +39,8 @@ A seleção de artigos é cronológica e distingue textos assinados de participa
 Publicações permite filtrar por gestão/governança, liderança/carreira e tecnologia. Ao acrescentar um artigo, definir seu `data-topic` e atualizar a contagem inicial. O catálogo é inteiramente legível sem JavaScript; os controles de filtro aparecem somente após a inicialização. Links com fragmento revelam artigos que estavam ocultos. Sobre Jenise tem atalhos para trajetória, formação e liderança. As regras do menu principal usam `#navigation`, separadas da `.section-nav`.
 
 Os destaques da inicial abrem diretamente o veículo de origem; manter título e botão apontando para o mesmo artigo. A chamada da newsletter explica que a inscrição ocorre no LinkedIn. Os textos permanecem em terceira pessoa até a inclusão da voz pessoal aprovada pela cliente. Datas e nomes dos veículos usam 14 px para facilitar a leitura.
+
+O primeiro artigo do acervo usa a classe `publication-featured`, com título, data e origem completos. Ao atualizar o destaque, mover essa classe para o artigo escolhido e manter a ordem cronológica. Ela não altera o assunto ou o funcionamento dos filtros. Os eixos de conteúdo usam `--page-width`, `--page-gutter` e `--content-width`; manter cabeçalho, abertura, seções e rodapé alinhados ao ajustar esses valores.
 
 As quatro fotos profissionais enviadas foram incorporadas em assets/jenise-*.jpg: abertura, biografia, liderança e autoria da newsletter. Os recortes são de apresentação (CSS); arquivos originais preservados. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
 

@@ -5,6 +5,8 @@ Assinatura: Jenise Carvalho · A Sócia. Posicionamento editorial: Gestão & Car
 
 Cores: azul principal #233b44, azul profundo #182f38, papel #f8f6f1, texto #263b41, texto secundário #596663, bronze de texto #795737, detalhe #9a7350 e areia #c8ac8b. Títulos em Georgia; interface e corpo em Segoe UI com alternativas locais. Não carregar fontes externas apenas para reproduzir estes materiais.
 
+Cabeçalho, abertura, seções e rodapé compartilham o mesmo eixo de conteúdo. O itálico em bronze é reservado para a abertura e alguns destaques; títulos auxiliares usam a classe `editorial-title`, em composição mais simples. No acervo, um artigo pode receber `publication-featured` para estabelecer prioridade sem acrescentar uma capa artificial. Nas redes utiliza seleção interna de canais, com rótulo ativo e foco visíveis.
+
 ## Fotografias e ícones
 Abertura: retrato em pé de branco. Biografia: vestido azul. Liderança: retrato sorrindo. Autoria: retrato circular. Originais preservados; enquadramentos feitos na apresentação. Não reconstruir nem alterar o rosto para fazer novas capas.
 
