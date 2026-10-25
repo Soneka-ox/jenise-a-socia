@@ -245,3 +245,67 @@ figure{margin:0}
 .branded-video .video-prompt{right:74px;bottom:20px;font-size:13px}
 .branded-video:hover .play-icon{background:#375561}
 @media(max-width:650px){.branded-video .play-icon{width:32px;height:32px;right:12px;bottom:3px}.branded-video .play-icon .ui-icon{width:20px;height:20px}.branded-video .video-prompt{right:54px;bottom:10px;font-size:12px}}
+
+/* A mesma identidade editorial, com espaço próprio para cada tipo de leitura. */
+nav a[aria-current="page"]{border-bottom:1px solid var(--bronze);color:var(--bronze)}
+.home-intro{display:grid;grid-template-columns:1fr 1fr;gap:8%;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.home-intro p:not(.eyebrow),.newsletter-section>div>p:not(.eyebrow){color:var(--muted);margin-bottom:18px;max-width:620px}
+.highlights-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.publication-card{min-width:0;border-top:1px solid var(--line);padding:25px 0;display:flex;flex-direction:column;align-items:flex-start;scroll-margin-top:125px}
+.publication-card .article-meta{font-size:12px;letter-spacing:.3px;line-height:1.7;color:var(--muted);margin-bottom:17px}
+.publication-card .article-meta time{margin:0;font-size:12px}
+.card-theme{font-size:12px;letter-spacing:.7px;text-transform:uppercase;color:var(--bronze);margin-bottom:12px}
+.publication-card h3{font:29px/1.25 var(--serif);margin-bottom:16px;overflow-wrap:break-word}
+.publication-card h3 a:hover{color:var(--bronze)}
+.publication-card>p:not(.article-meta):not(.card-theme){font-size:16px;color:var(--muted);margin-bottom:20px}
+.publication-card>.text-link{margin-top:auto;padding-top:8px}
+.newsletter-section{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8%;background:#efeee7}
+.newsletter-section h2{margin-bottom:22px}
+.newsletter-section .newsletter{min-width:0}
+.page-intro{padding-top:65px;padding-bottom:35px;max-width:1400px;margin:auto}
+.page-intro h1{font:clamp(42px,4.6vw,66px)/1.15 var(--serif);letter-spacing:-1.5px;margin-bottom:26px;max-width:1050px}
+.page-intro .lead{max-width:750px}
+.section-nav{display:flex;position:static;flex-wrap:wrap;gap:12px 28px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:34px;padding:12px 0;box-shadow:none;background:transparent}
+.section-nav a{white-space:normal}
+.catalog-section{padding-top:34px}
+.catalog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:7%}
+.catalog-grid .publication-card{padding:28px 0 34px}
+.catalog-grid .publication-card h3{max-width:580px;font-size:32px}
+.author-profiles{border-top:1px solid var(--line);margin-top:18px;padding:28px 0 0}
+.author-profiles>p:not(.eyebrow){color:var(--muted);margin-bottom:14px}
+.author-profiles>div{display:flex;flex-wrap:wrap;gap:12px 30px}
+.participation-section{border-top:1px solid var(--line)}
+.press-mentions ul{list-style:none;padding:0;margin:0 0 20px}
+.press-mentions li{padding:12px 0}
+.press-mentions .text-link{white-space:normal}
+.page-sobre .about h1{font:clamp(38px,4vw,58px)/1.15 var(--serif);letter-spacing:-1px;margin-bottom:26px}
+.page-sobre .about{padding-top:60px}
+.page-sobre .about-photo img{height:530px}
+.page-sobre .career .education{position:sticky;top:130px}
+.contributions-section{border-top:1px solid var(--line);padding-top:20px}
+.contributions-section .people-feature{margin-top:35px}
+.contributions-section .people-feature img{height:540px}
+.contributions-section .people-feature h2{font-size:40px;margin-bottom:24px}
+.contribution-grid{display:grid;grid-template-columns:1fr 1fr;gap:7%;margin-top:45px}
+.contribution-grid h3{font:30px/1.25 var(--serif);margin-bottom:18px}
+.contribution-grid p:not(.eyebrow){color:var(--muted);margin-bottom:16px}
+.themes-overview{padding-top:20px}
+.themes-overview .services article{padding-top:0}
+@media(max-width:1000px){.highlights-grid{gap:20px}.publication-card h3{font-size:26px}.newsletter-section{gap:30px}.contributions-section .people-feature h2{font-size:34px}.contributions-section .people-feature img{height:620px}}
+@media(max-width:650px){
+  .home-intro,.highlights-grid,.newsletter-section,.catalog-grid,.contribution-grid{grid-template-columns:1fr;gap:24px}
+  .home-intro h2{margin-bottom:5px}.home-intro p:not(.eyebrow){font-size:16px}
+  .highlights-grid{gap:0}.publication-card{padding:24px 0}.publication-card h3,.catalog-grid .publication-card h3{font-size:28px}
+  .publication-card .article-meta{margin-bottom:12px}.publication-card>p:not(.article-meta):not(.card-theme){margin-bottom:15px}
+  .newsletter-section{gap:20px}.newsletter-section h2{margin-bottom:18px}
+  .page-intro{padding-top:34px;padding-bottom:20px}.page-intro h1{font-size:40px;letter-spacing:-.8px;line-height:1.16}
+  .section-nav{gap:4px 22px;font-size:14px;margin-top:25px}
+  .catalog-section{padding-top:28px}.catalog-grid{gap:0}.catalog-grid .publication-card{padding:25px 0 30px}
+  .page-sobre .about{padding-top:32px}.page-sobre .about h1{font-size:38px;line-height:1.16}
+  .page-sobre .about-copy{order:-1}
+  .page-sobre .about-photo img{height:auto;aspect-ratio:4/4.4}.page-sobre .career .education{position:static}
+  .contributions-section{padding-top:15px}.contributions-section .people-feature{margin-top:20px}.contributions-section .people-feature img{height:340px;object-position:50% 25%}
+  .contributions-section .people-feature h2{font-size:32px}.contribution-grid{gap:25px;margin-top:30px}
+  .contribution-grid article+article{border-top:1px solid var(--line);padding-top:27px}.contribution-grid h3{font-size:28px}
+  .themes-overview .services article+article{padding-top:24px}.press-mentions .text-link{font-size:14px}
+}

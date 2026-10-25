@@ -42,7 +42,7 @@ document.querySelectorAll('[data-video-start]').forEach(button => {
     if (isMoment) videoSlot.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block:'center'});
   });
 });
-document.querySelector('#load-instagram').addEventListener('click', () => {
+document.querySelector('#load-instagram')?.addEventListener('click', () => {
   const frame = document.createElement('iframe');
   frame.src = 'https://www.instagram.com/jenisecarvalho/embed/';
   frame.title = 'Perfil de Jenise Carvalho no Instagram';
@@ -50,3 +50,17 @@ document.querySelector('#load-instagram').addEventListener('click', () => {
   document.querySelector('#instagram-profile').replaceChildren(frame);
   frame.focus({preventScroll:true});
 });
+
+// Endereços compartilhados antes da divisão em páginas continuam úteis.
+if (document.body.classList.contains('page-home')) {
+  const previousDestinations = {
+    '#trajetoria': 'sobre/#trajetoria',
+    '#atuacao': 'sobre/#atuacao',
+    '#leituras': 'publicacoes/#artigos',
+    '#artigo-governanca': 'publicacoes/#artigo-governanca',
+    '#artigo-sociedade': 'publicacoes/#artigo-sociedade',
+    '#artigo-carreira': 'publicacoes/#artigo-carreira'
+  };
+  const destination = previousDestinations[window.location.hash];
+  if (destination) window.location.replace(new URL(destination, window.location.href));
+}
