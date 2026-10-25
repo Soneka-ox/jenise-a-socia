@@ -19,3 +19,7 @@ Newsletter confirmada: https://www.linkedin.com/newsletters/a-s%25C3%25B3cia-693
 LinkedIn fornecido pelo usuário: https://www.linkedin.com/in/jenisecarvalho/ . O perfil não pôde ser lido pelo acesso web. A página ConJur de 2020 fornecida também não pôde ser lida. Não foi usada para afirmar cargo atual.
 
 A estrutura foi ajustada de serviços presumidos para temas editoriais. Serviços, palestras, mentorias e consultorias não são anunciados como ofertas confirmadas.
+
+## Leituras selecionadas
+
+Três artigos públicos foram conferidos no LinkedIn e adicionados com título, data e link de origem. A página oferece acesso ao conteúdo original, sem reproduzir os artigos. Seleção manual para revisão com Jenise.

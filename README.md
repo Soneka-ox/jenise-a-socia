@@ -1,4 +1,4 @@
-# Jenise · Jurídico & Governança
+# Jenise Carvalho · A Sócia
 
 Proposta estrutural e visual. Identificação atualizada para Jenise Carvalho e A Sócia a partir das referências públicas fornecidas. Não representa conteúdo profissional aprovado.
 
@@ -30,3 +30,11 @@ Concluir o briefing, validar todo o conteúdo com a cliente, inserir contato e i
 ## GitHub e hospedagem
 
 Repositório público: https://github.com/Soneka-ox/jenise-a-socia . Conta **Soneka-ox**, para transferência futura. Não ativar GitHub Pages nem hospedagem cloud nesta etapa. Materiais pessoais devem ficar em `materiais-cliente/` (ignorado pelo Git); apenas arquivos selecionados para o site entram em `assets/`.
+
+## Conteúdos selecionados
+
+A seção Leituras reúne três artigos reais no LinkedIn, com data e link direto. A seleção é manual: para atualizar, edite os blocos `.article-link` em `index.html`. Não há sincronização automática nem reprodução integral de publicações.
+
+## Materiais da cliente
+
+Veja `docs/materiais.md` para organizar retrato, marca e contatos. O projeto mantém a preferência por repositório público na Soneka-ox e hospedagem desativada.

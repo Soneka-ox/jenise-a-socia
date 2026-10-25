@@ -1,9 +1,9 @@
 # Informações para a próxima etapa
 
 ## Identidade
-- Nome profissional completo e nome do escritório/consultoria.
+- Identificação: Jenise Carvalho; vínculo público com o MJAB consultado. Confirmar a assinatura final.
 - Assinatura da marca, logo, cores e referências de estilo.
-- Confirmar se “Jenise” e “Jurídico & Governança” são adequados.
+- Validar a assinatura proposta: “Jenise Carvalho · A Sócia”.
 
 ## Posicionamento
 - Quem ela atende: pessoas, empresas, instituições ou outros públicos?
@@ -21,7 +21,7 @@
 - WhatsApp e e-mail profissional.
 - Cidade, endereço público e modalidades de atendimento.
 - Dinâmica do primeiro contato, disponibilidade e perguntas frequentes.
-- Links sociais que deseja divulgar.
+- Instagram, LinkedIn e newsletter já inseridos. Confirmar outros canais desejados.
 
 ## Conteúdo e publicação
 - Validar cada área, texto e etapa proposta no protótipo.
