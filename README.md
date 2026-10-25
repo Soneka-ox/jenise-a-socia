@@ -6,11 +6,11 @@ Site pessoal e editorial em desenvolvimento. Apresentação profissional, temas 
 
 Abra `index.html` diretamente no navegador. Para servir por HTTP com Node instalado: `node scripts/preview.cjs`. Acesse `http://127.0.0.1:4173/` e encerre com Ctrl+C. A prévia pertence a este computador e não é uma URL pública de divulgação.
 
-Não há dependências, build, formulário, analytics ou carregamento de fontes e imagens externas. Links para as redes abrem nas plataformas de origem.
+Não há dependências, build, formulário, analytics ou fontes externas. YouTube e Instagram são incorporados somente após clique; links alternativos abrem nas plataformas de origem. Os conteúdos incorporados dependem de internet e das regras de cada plataforma. Para testar o player, use a prévia por HTTP: arquivos abertos diretamente podem não fornecer a identificação de origem exigida pelo YouTube.
 
 ## Organização
 
-Apresentação → Sobre Jenise → Trajetória e formação → Temas → Publicações (newsletter e artigos) → Canais profissionais.
+Apresentação → Sobre Jenise → Trajetória e formação → Temas → Publicações (newsletter e artigos) → Vídeo e Instagram → Canais profissionais.
 
 - `index.html`: conteúdo e estrutura.
 - `assets/site.css`: cores, tipografia e adaptação de telas.

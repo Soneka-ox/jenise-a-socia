@@ -15,3 +15,14 @@ Abertura e biografia conferidas no computador; newsletter e menu conferidos em 3
 
 ## Limites
 Prévia local, sem hospedagem pública. As formações e experiências vêm das capturas fornecidas, sem autenticação independente de diplomas. Depoimentos incompletos não foram incluídos. Não foi executada auditoria com leitor de tela nem teste em dispositivo físico. O site mantém bloqueio de indexação enquanto está em validação.
+
+## Atualização: vídeo, Instagram e análise da fala
+
+- Design: nova seção com vídeo em proporção 16:9, perfil incorporado e sínteses em texto; blocos empilhados no celular.
+- Organização: acesso em Conteúdos → Vídeo e Instagram, preservando as âncoras anteriores.
+- Conteúdo: episódio Casa Capta identificado na origem (05/10/2026); transcrição disponível consultada. Quatro sínteses atribuídas pelo contexto das intervenções de Jenise, sem citações literais. Análise com seis trechos em analise-video-casa-capta.md.
+- Celular: sem transbordamento nas larguras 320, 390, 768 e 1440 px; perfil e player carregados em 390 px.
+- Funcionamento: nenhum iframe antes do clique; YouTube reproduziu dentro da prévia e avançou até três segundos; perfil exibiu nome e publicações. Atalhos de carreira e tecnologia geraram os respectivos tempos no endereço do player. Âncoras internas válidas e JavaScript verificado.
+- Próximos ajustes: conferir em aparelhos físicos e no domínio final; disponibilidade de vídeo e perfil depende das plataformas. O perfil pode exigir autenticação conforme navegador/região e configuração da conta. Links alternativos permanecem visíveis.
+
+Player em modo de privacidade aprimorada (youtube-nocookie.com), conforme [documentação do YouTube](https://support.google.com/youtube/answer/171780?hl=en). Sem reprodução automática configurada. As duas integrações carregam mediante clique. Não há cópia local do vídeo ou dos posts, nem transcrição integral no site.

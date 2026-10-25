@@ -21,3 +21,32 @@ document.addEventListener('keydown', event => {
   }
 });
 window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
+
+
+// Conteúdos externos só são solicitados após uma ação do visitante.
+const videoSlot = document.querySelector('#video-player');
+function loadEpisode(start) {
+  const frame = document.createElement('iframe');
+  frame.src = 'https://www.youtube-nocookie.com/embed/cIO_klDjaLY?rel=0&playsinline=1&start=' + start;
+  frame.title = 'Casa Capta: conversa com Jenise Carvalho e Danielle Sarti';
+  frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  frame.allowFullscreen = true;
+  frame.referrerPolicy = 'strict-origin-when-cross-origin';
+  videoSlot.replaceChildren(frame);
+  frame.focus({preventScroll:true});
+}
+document.querySelectorAll('[data-video-start]').forEach(button => {
+  button.addEventListener('click', () => {
+    const isMoment = !videoSlot.contains(button);
+    loadEpisode(Number(button.dataset.videoStart));
+    if (isMoment) videoSlot.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block:'center'});
+  });
+});
+document.querySelector('#load-instagram').addEventListener('click', () => {
+  const frame = document.createElement('iframe');
+  frame.src = 'https://www.instagram.com/jenisecarvalho/embed/';
+  frame.title = 'Perfil de Jenise Carvalho no Instagram';
+  frame.referrerPolicy = 'strict-origin-when-cross-origin';
+  document.querySelector('#instagram-profile').replaceChildren(frame);
+  frame.focus({preventScroll:true});
+});

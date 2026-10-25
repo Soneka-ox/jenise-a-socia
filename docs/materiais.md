@@ -17,3 +17,7 @@ As capturas de currículo, originais e análise detalhada permanecem em materiai
 
 ## Próxima validação
 Confirmar com a cliente a redação final da biografia, denominações de cargos e formação IBGC 2026; definir marca oficial, finalidade comercial/editorial e contatos diretos, caso desejados. O monograma permanece provisório. Não há hospedagem ativa.
+
+## Vídeo e redes
+
+Incluídos o episódio Casa Capta enviado pelo responsável e o perfil incorporado @jenisecarvalho. Análise editorial em docs/analise-video-casa-capta.md. A transcrição foi consultada na interface do YouTube; sínteses e tempos selecionados aparecem no site. Os conteúdos externos são carregados mediante clique e mantêm links diretos alternativos.

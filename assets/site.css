@@ -158,3 +158,43 @@ figure{margin:0}
 @media(min-width:901px) and (max-width:1100px){nav{gap:15px;font-size:12px}.header{gap:15px}.brand{font-size:13px}.hero-photo img{height:510px}.career-grid{gap:30px}}
 @media(max-width:900px){.hero-photo img{height:500px}.about-photo img{height:450px}.career-grid{gap:28px;grid-template-columns:1.1fr .9fr}.timeline li{grid-template-columns:1fr;gap:6px}.education{padding:23px}.people-feature{gap:5%}.people-feature img{height:520px}.people-feature h3{font-size:31px}.people-feature>div{padding-right:22px}}
 @media(max-width:650px){.hero-photo{max-width:none;justify-self:stretch}.hero-photo img{height:auto;aspect-ratio:4/4.3;object-position:50% 25%}.hero-photo figcaption{font-size:16px}.about-photo{max-width:420px;width:100%;justify-self:center}.about-photo img{height:auto;aspect-ratio:4/4.7;object-position:53% 25%}.career-grid{grid-template-columns:1fr;gap:30px}.timeline li{grid-template-columns:1fr;gap:5px;padding:20px 0}.education{padding:26px}.people-feature{grid-template-columns:1fr;gap:0;margin-top:35px}.people-feature img{height:auto;aspect-ratio:4/4.6;object-position:50% 38%}.people-feature>div{padding:27px}.people-feature h3{font-size:32px}.newsletter-author{gap:12px}.author-photo{width:62px;height:62px}}
+
+.content-jumps{margin:-12px 0 25px}
+.conversations{border-top:1px solid var(--line)}
+.media-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:30px;align-items:start}
+.video-card{border:1px solid var(--line);min-width:0;background:var(--white)}
+.video-slot{aspect-ratio:16/9;background:var(--deep)}
+.video-slot iframe{width:100%;height:100%;display:block;border:0}
+.video-launch{display:flex;width:100%;height:100%;min-height:0;border:0;background:radial-gradient(ellipse at top right,#44636d,var(--deep) 75%);color:var(--paper);align-items:center;justify-content:center;flex-direction:column;padding:20px;cursor:pointer}
+.video-kicker{font-size:12px;letter-spacing:1.4px}
+.play-icon{width:64px;height:64px;border:1px solid #d1b28c;border-radius:50%;display:grid;place-items:center;font-size:23px;padding-left:5px;margin:23px 0 14px;color:#e4c7a4}
+.video-launch:hover .play-icon{background:#ffffff18}
+.video-prompt{font:26px/1.25 var(--serif)}
+.video-duration{font-size:13px;color:#d0dcd7;margin-top:8px}
+.video-description{padding:27px}
+.video-description .eyebrow{margin-bottom:14px}
+.video-description h3{font:29px/1.25 var(--serif);margin-bottom:16px}
+.video-description p:not(.eyebrow){color:var(--muted);font-size:16px;margin-bottom:14px}
+.instagram-card{border:1px solid var(--line);padding:23px;background:var(--white);min-width:0}
+.instagram-heading .eyebrow{margin-bottom:10px}
+.instagram-heading h3{font:27px/1.3 var(--serif);overflow-wrap:anywhere;margin-bottom:12px}
+.instagram-heading p:not(.eyebrow){color:var(--muted);font-size:15px;margin-bottom:20px}
+.instagram-slot{background:#eeeee7;min-height:350px}
+.instagram-slot iframe{display:block;width:100%;height:420px;border:0;background:white}
+.instagram-placeholder{min-height:350px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;gap:20px}
+.instagram-placeholder img{width:88px;height:88px;object-fit:cover;transform:scale(1.06);border-radius:50%}
+.instagram-placeholder p{font:22px/1.4 var(--serif)}
+.instagram-placeholder .button{border:0;cursor:pointer}
+.instagram-card>.text-link{margin-top:12px}
+.media-note{font-size:13px;color:var(--muted);margin-top:20px;max-width:720px}
+.episode-notes{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;margin-top:45px;padding-top:35px;border-top:1px solid var(--line)}
+.episode-intro h3{font:32px/1.25 var(--serif);margin-bottom:18px}
+.episode-intro>p:last-child{color:var(--muted);font-size:15px;max-width:300px}
+.episode-moments button{width:100%;display:grid;grid-template-columns:52px 1fr 15px;align-items:start;gap:14px;background:none;color:var(--ink);text-align:left;border:0;border-bottom:1px solid var(--line);padding:19px 0;cursor:pointer}
+.episode-moments button:first-child{padding-top:0}
+.episode-moments button:hover strong{color:var(--bronze)}
+.moment-time{font-size:13px;color:var(--bronze);padding-top:2px;font-weight:600}
+.episode-moments strong{font-size:16px;font-weight:600;display:block;line-height:1.4}
+.episode-moments button>span>span{font-size:15px;line-height:1.6;display:block;color:var(--muted);margin-top:8px}
+@media(max-width:1000px){.media-grid{grid-template-columns:1fr 1fr;gap:22px}.video-description{padding:23px}.play-icon{margin:16px 0 10px;width:52px;height:52px}.video-prompt{font-size:23px}.instagram-card{padding:20px}.instagram-placeholder{padding:20px}.episode-notes{gap:30px}}
+@media(max-width:650px){.media-grid,.episode-notes{grid-template-columns:1fr}.media-grid{gap:26px}.video-description{padding:23px}.video-description h3{font-size:27px}.video-launch{padding:16px}.video-kicker{font-size:12px;letter-spacing:.9px}.play-icon{margin:12px 0 9px;width:45px;height:45px;font-size:18px}.video-prompt{font-size:22px}.video-duration{font-size:12px;margin-top:5px}.instagram-card{padding:23px}.instagram-slot iframe{height:420px}.episode-notes{margin-top:32px;padding-top:27px;gap:25px}.episode-moments button{grid-template-columns:44px 1fr 13px;gap:10px}.episode-intro>p:last-child{max-width:none}}
