@@ -38,3 +38,15 @@ Texto principal sobre o fundo claro: 10,90:1. Texto secundário: 5,55:1. Bronze 
 - Google Search Central: migração de URLs — https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes
 
 As sugestões de organização e posicionamento são julgamento editorial aplicado ao site, não resultados de teste com visitantes. Esta atualização implementou somente a troca de fotografias, a padronização dos ícones e os ajustes necessários aos botões; as mudanças estruturais acima são propostas para uma próxima revisão.
+
+## Revisão aplicada: leitura, textos e compartilhamento
+
+Sugestões adotadas: prioridade editorial mantida, experiências anteriores e formação complementar em blocos expansíveis, outras contribuições disponíveis por expansão, seleção de trechos do vídeo também expansível e acesso direto ao vídeo no cabeçalho. Os dados não foram apagados.
+
+Textos revisados para ortografia, concordância, regência, conectivos e concisão. Exemplos: título de biografia mais informativo; regência em participou de comissões; tradução de managing director para diretora executiva; menção a carreira sem repetição de construir; sínteses do vídeo com estrutura mais direta. Os títulos originais de artigos e os nomes oficiais das formações foram preservados.
+
+Capas: 1200 × 630 para compartilhamento e 1200 × 675 para vídeo, JPEGs de aproximadamente 81 e 85 KiB. Imagens exportadas de composição HTML/CSS com a foto original e a paleta do site. Open Graph e Twitter Card completos, com descrição alternativa e nomes de arquivo específicos.
+
+Verificação local: em 390 × 844 px e com detalhes fechados, a altura passou de aproximadamente 11.327 para 9.385 px, redução de cerca de 17%. Sem transbordamento nas larguras 320, 390, 768 e 1440 px. As quatro expansões abriram; a seleção de vídeo abriu e fechou por Enter. Um atalho carregou o player no tempo esperado, sem reproduzir áudio. Links internos válidos. Não houve teste em aparelho físico nem envio de link por WhatsApp.
+
+A avaliação melhora em organização, leitura móvel e consistência de compartilhamento. Permanecem para validação humana: marca definitiva, denominações de cargos e credenciais. Permanecem para aferição: dispositivos físicos, leitor de tela e desempenho real. A prévia de link foi preparada segundo https://ogp.me/ ; a exibição final depende de cada aplicativo.

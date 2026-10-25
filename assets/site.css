@@ -213,3 +213,35 @@ figure{margin:0}
 
 .nav-contact>.ui-icon{margin-left:12px}
 .social-icons a:focus-visible{outline-color:var(--sand)}
+
+/* Leitura progressiva: o conteúdo complementar permanece acessível. */
+.disclosure{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:15px}
+.disclosure summary{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 0;min-height:52px;font-size:14px;font-weight:600;cursor:pointer;list-style:none}
+.disclosure summary::-webkit-details-marker{display:none}
+.disclosure summary:focus-visible{outline:3px solid var(--bronze);outline-offset:4px}
+.disclosure-sign{width:14px;height:14px;position:relative;flex-shrink:0}
+.disclosure-sign:before,.disclosure-sign:after{content:'';position:absolute;background:currentColor;top:6px;left:0;width:14px;height:1.5px}
+.disclosure-sign:after{transform:rotate(90deg)}
+.disclosure[open]>summary .disclosure-sign:after{transform:none}
+.disclosure[open]>summary{margin-bottom:9px}
+.education-details .degrees{margin-top:0}
+.education-details{border-color:#ced3c9}
+.education-details .education-note{padding-bottom:15px}
+.people-feature img{height:350px}
+.people-feature .contributions p{margin:0 0 15px}
+.episode-notes{grid-template-columns:.85fr 1.15fr;margin-top:28px;padding-top:28px}
+.episode-details{margin-top:0;align-self:start}
+.episode-details .episode-moments{padding:12px 0 6px}
+.video-slot{aspect-ratio:16/9}
+.branded-video{position:relative;overflow:hidden;background:var(--deep);padding:0}
+.video-cover{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}
+.branded-video .video-kicker,.branded-video .video-duration{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.branded-video .play-icon{position:absolute;right:28px;bottom:35px;margin:0;background:var(--navy);width:54px;height:54px;color:var(--paper);border-color:var(--sand)}
+.branded-video .video-prompt{position:absolute;right:96px;bottom:50px;color:var(--paper);font:15px 'Segoe UI',Arial,sans-serif}
+@media(max-width:900px){.people-feature img{height:390px}}
+@media(max-width:650px){.about{gap:22px}.about-photo img{aspect-ratio:4/4}.career-grid{gap:22px}.people-feature{margin-top:28px}.people-feature img{height:280px;aspect-ratio:auto;object-position:50% 28%}.people-feature>div{padding:24px}.episode-notes{grid-template-columns:1fr;gap:18px}.episode-intro h3{font-size:29px}.instagram-placeholder,.instagram-slot{min-height:250px}.branded-video .play-icon{width:40px;height:40px;right:16px;bottom:17px}.branded-video .video-prompt{right:66px;bottom:28px;font-size:12px}}
+
+.branded-video .play-icon{width:42px;height:42px;right:20px;bottom:8px}
+.branded-video .video-prompt{right:74px;bottom:20px;font-size:13px}
+.branded-video:hover .play-icon{background:#375561}
+@media(max-width:650px){.branded-video .play-icon{width:32px;height:32px;right:12px;bottom:3px}.branded-video .play-icon .ui-icon{width:20px;height:20px}.branded-video .video-prompt{right:54px;bottom:10px;font-size:12px}}

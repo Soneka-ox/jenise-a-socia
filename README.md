@@ -24,7 +24,7 @@ Apresentação → Sobre Jenise → Trajetória e formação → Temas → Publi
 
 A paleta está no início de `assets/site.css`: `--bronze` para texto e `--accent` para detalhes decorativos. Manter o contraste também em hover e foco. A seleção de artigos é manual, com título, data e origem; não há sincronização automática nem reprodução integral de publicações.
 
-As descrições dos temas ficam visíveis e seus links apontam para artigos relacionados. Os fragmentos antigos `#abordagem` e `#leituras` continuam disponíveis dentro de Publicações.
+As descrições dos temas ficam visíveis e seus links apontam para artigos relacionados. Experiências anteriores, formação complementar, contribuições e trechos do vídeo usam expansão nativa. Os fragmentos antigos `#abordagem` e `#leituras` continuam disponíveis dentro de Publicações.
 
 As quatro fotos profissionais enviadas foram incorporadas em assets/jenise-*.jpg: abertura, biografia, liderança e autoria da newsletter. Os recortes são de apresentação (CSS); arquivos originais preservados. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
 
@@ -42,3 +42,7 @@ O nome do repositório foi mantido por ser descritivo e próximo da marca. A fut
 Na migração, revisar Pages, canonical e Open Graph em index.html, sitemap.xml, robots.txt, o endereço exibido na descrição do repositório e este README. Se o nome do repositório mudar, atualizar também o caminho de retorno da página 404. Configurar o domínio personalizado e o DNS apenas quando o domínio estiver disponível para ativação. Nenhum CNAME antecipado foi adicionado.
 
 A publicação mantém os materiais originais de cliente e qa fora do Git. Os metadados passam a permitir indexação; somente a página de erro permanece noindex.
+
+## Identidade e compartilhamento
+
+Guia: docs/guia-visual-editorial.md. Capa do vídeo: assets/capa-video-casa-capta-v1.jpg. Imagem Open Graph/Twitter Card: assets/jenise-a-socia-compartilhar-v1.jpg (1200 × 630). Atualizar os metadados de imagem e a versão do arquivo ao substituir a arte. Manter origem, título e crédito do episódio.
