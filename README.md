@@ -30,6 +30,8 @@ A paleta está no início de `assets/site.css`: `--bronze` para texto e `--accen
 
 A seleção de artigos é cronológica e distingue textos assinados de participações como fonte. Formação complementar, períodos de comissões, menções institucionais e trechos do vídeo usam expansão nativa. O antigo `#abordagem` permanece na newsletter da inicial. O JavaScript encaminha `#trajetoria`, `#atuacao`, `#leituras` e os três fragmentos antigos de artigos aos novos destinos. O ConJur tem link de perfil; o artigo localizado apenas no índice não foi incluído como conteúdo integralmente conferido.
 
+Publicações permite filtrar por gestão/governança, liderança/carreira e tecnologia. Ao acrescentar um artigo, definir seu `data-topic` e atualizar a contagem inicial. O catálogo é inteiramente legível sem JavaScript; os controles de filtro aparecem somente após a inicialização. Links com fragmento revelam artigos que estavam ocultos. Sobre Jenise tem atalhos para trajetória, formação e liderança. As regras do menu principal usam `#navigation`, separadas da `.section-nav`.
+
 As quatro fotos profissionais enviadas foram incorporadas em assets/jenise-*.jpg: abertura, biografia, liderança e autoria da newsletter. Os recortes são de apresentação (CSS); arquivos originais preservados. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
 
 ## Publicação e endereços

@@ -46,8 +46,33 @@ Revisados ortografia, concordância, conectivos e repetições dos textos própr
 
 1. Confirmar com a cliente a redação final da formação IBGC, os vínculos atuais e o monograma definitivo.
 2. Completar a conferência direta do artigo ConJur e o endereço individual do texto sobre execução de estratégia no Debate Jurídico antes de incluí-los no catálogo.
-3. Acrescentar novos artigos pela curadoria manual; considerar filtros quando o volume realmente dificultar a localização. Não criar páginas vazias por veículo.
+3. Acrescentar novos artigos pela curadoria manual; reavaliar busca e paginação se o volume crescer. Os filtros por assunto foram acrescentados no refinamento abaixo. Não criar páginas vazias por veículo.
 4. Fazer auditoria com leitor de tela e aferição de desempenho em uso real quando houver tráfego.
 5. Na transferência para Jeniseasocia e no domínio próprio, atualizar canonical, sitemap, Open Graph, robots e destino da página 404. Domínio ainda não ativado nesta entrega.
 
 Referências editoriais detalhadas: `catalogo-publicacoes-2026-10-25.md`. Análise que orientou a organização: `analise-organizacao-fontes-2026-10-25.md`. Nenhum artigo externo foi reproduzido integralmente.
+
+## Refinamento adicional — navegação e leitura
+
+Atendendo ao pedido de aprimorar os ajustes, esta revisão mantém as três páginas e concentra mudanças na localização dos conteúdos:
+
+- Filtros em Publicações: todos os assuntos (10 artigos), gestão e governança (3), liderança e carreira (6) e tecnologia (1). A seleção indica o estado ativo e anuncia a quantidade de resultados. Cada artigo pertence a um grupo editorial principal; os rótulos específicos dos cartões continuam disponíveis.
+- Sem JavaScript, o catálogo inteiro permanece legível, os filtros não aparecem inativos e o menu principal continua disponível no celular.
+- Links compartilhados para artigos ocultos pelo filtro restauram a seleção completa e revelam o destino.
+- Atalhos em Sobre Jenise levam diretamente a trajetória, formação e liderança/contribuição.
+- Abertura e título de seção de Publicações ficaram mais curtos. O destaque do Migalhas na inicial recebeu uma chamada editorial curta; o título original permanece integral no catálogo.
+- As regras visuais do menu principal passaram a ter escopo próprio, evitando interferência nos atalhos internos das páginas. Mantidos contraste, foco visível, altura mínima de 44 px nos filtros e identidade sem emojis.
+- Metadados de compartilhamento, imagem social, quatro fotos profissionais, vídeo e Instagram preservados. Não foram acrescentadas informações curriculares sem nova confirmação.
+
+### Conferência deste refinamento
+
+As três páginas foram verificadas novamente em 320, 390, 768 e 1440 px, sem transbordamento horizontal. Atalhos internos visíveis em todas as larguras. Filtros testados para as quatro seleções, incluindo acionamento por Enter, contagem de resultados e recuperação de artigo por fragmento. Menu conferido com abertura e fechamento por Escape; atalho Formação levou a `sobre/#formacao`. Nenhum erro de console capturado, nenhum iframe inicial e nenhuma reprodução de áudio iniciada.
+
+| Área | Avaliação atual | Próxima oportunidade |
+| --- | --- | --- |
+| Navegação | Mais direta | Acompanhar se o acervo futuro exige busca; manter o menu curto |
+| Publicações | Mais fáceis de explorar | Curadoria e atualização periódica de conteúdos |
+| Leitura no celular | Mais concisa | Avaliar em aparelhos físicos e com usuários |
+| Design | Identidade preservada | Validar monograma definitivo com a cliente |
+| Acessibilidade | Melhor apoio à navegação | Auditoria com leitor de tela ainda pendente; não se trata de certificação |
+| Conteúdo e compartilhamento | Preservados | Validação curricular da cliente e conferências editoriais pendentes continuam registradas |
