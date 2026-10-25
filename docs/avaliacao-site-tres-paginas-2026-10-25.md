@@ -76,3 +76,32 @@ As três páginas foram verificadas novamente em 320, 390, 768 e 1440 px, sem tr
 | Design | Identidade preservada | Validar monograma definitivo com a cliente |
 | Acessibilidade | Melhor apoio à navegação | Auditoria com leitor de tela ainda pendente; não se trata de certificação |
 | Conteúdo e compartilhamento | Preservados | Validação curricular da cliente e conferências editoriais pendentes continuam registradas |
+
+## Refinamento de redação, acesso e legibilidade
+
+Aplicado após o pedido para executar as melhorias da avaliação, deixando a voz pessoal da Jenise para uma etapa posterior.
+
+- Os três destaques da inicial abrem diretamente o artigo no Correio Braziliense, Migalhas ou LexLegal. Título e chamada de leitura têm o mesmo destino. O acesso ao catálogo completo permanece separado, evitando uma etapa intermediária obrigatória.
+- Removidos trechos repetidos na apresentação, na biografia e nas contribuições. Os fatos, períodos e designações profissionais foram preservados, sem criar falas em primeira pessoa ou acrescentar experiências não confirmadas.
+- A seção final de temas da biografia foi condensada em uma chamada ao acervo. O fragmento `sobre/#atuacao` foi mantido para preservar endereços anteriores.
+- A newsletter passou a ter uma chamada explícita para acompanhar as próximas edições, explicando que a inscrição ocorre no LinkedIn. O botão leva à página da newsletter; não há inscrição automática no site.
+- Datas e identificação dos veículos passaram a 14 px, e os rótulos de assunto, a 13 px. Espaçamentos entre seções da inicial e da biografia foram reduzidos no celular sem remover conteúdos curriculares.
+- A inicial observada em 390 px ficou em aproximadamente 5,8 mil px de altura, ante cerca de 6,2 mil da revisão anterior, com expansões fechadas e mídias não carregadas. É uma medida de extensão local, não de velocidade.
+- Mantidos as quatro fotos, as capas, os logotipos sociais e os metadados de compartilhamento. A marca definitiva e as credenciais que aguardam confirmação não foram alteradas por suposição.
+
+Verificação: três páginas em 320, 390, 768 e 1440 px, sem transbordamento horizontal, com um h1 por página. Tamanho de 14 px dos metadados confirmado no navegador; seis links dos três destaques conferidos contra as fontes do catálogo. Recursos locais e fragmentos internos passaram pela conferência estática. Nenhum áudio foi reproduzido.
+
+### Notas após esta revisão
+
+Notas editoriais e de experiência de uso, não resultados automáticos ou certificações. Nota global de julgamento: **8,6/10**. A personalização da escrita depende do material que a cliente fornecerá depois.
+
+| Área | Nota | Observação |
+| --- | --- | --- |
+| Identidade visual | 8,7 | Coerência preservada; monograma definitivo pendente |
+| Organização | 8,8 | Três páginas, com menos repetição entre seções |
+| Escrita e clareza | 8,5 | Mais concisa e direta; voz pessoal ainda será incorporada |
+| Navegação | 9,0 | Destaques levam à fonte, catálogo e atalhos permanecem acessíveis |
+| Celular | 8,7 | Textos auxiliares maiores e inicial mais curta; falta uso em aparelho físico |
+| Conteúdo e credibilidade | 8,5 | Fatos preservados; validações curriculares continuam pendentes |
+| Acessibilidade | 7,9 | Legibilidade aprimorada; auditoria com leitor de tela ainda não realizada |
+| Busca e compartilhamento | 8,0 | Estrutura preservada; sem nova aferição de indexação ou desempenho em campo |

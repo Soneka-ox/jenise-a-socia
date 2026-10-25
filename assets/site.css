@@ -334,3 +334,21 @@ figure{margin:0}
  .topic-filters button{padding:9px 12px;font-size:13px}
  .about-jumps{gap:2px 20px;margin-top:18px}
 }
+
+/* Leitura auxiliar mais confortável e menos espaço entre blocos no celular. */
+.publication-card .article-meta,.publication-card .article-meta time{font-size:14px;line-height:1.6}
+.publication-card .card-theme{font-size:13px;letter-spacing:.4px}
+.catalog-count,.media-note,.video-duration{font-size:14px}
+.related-copy{max-width:650px;font-size:16px;color:var(--muted)}
+.themes-overview .section-heading{margin-bottom:18px}
+.page-home .newsletter-section>div>p{max-width:440px}
+@media(max-width:650px){
+ .page-home .section,.page-sobre .career,.page-sobre .contributions-section{padding-top:38px;padding-bottom:38px}
+ .page-home .newsletter-section{gap:18px}
+ .page-home .newsletter-section h2{font-size:33px}
+ .page-home .home-intro{gap:18px}
+ .publication-card .article-meta,.publication-card .article-meta time{font-size:14px}
+ .publication-card .article-meta{margin-bottom:10px}
+ .publication-card .card-theme{margin-bottom:10px}
+ .page-sobre .themes-overview{padding-top:22px;padding-bottom:38px}
+}

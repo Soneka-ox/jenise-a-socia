@@ -32,6 +32,8 @@ A seleção de artigos é cronológica e distingue textos assinados de participa
 
 Publicações permite filtrar por gestão/governança, liderança/carreira e tecnologia. Ao acrescentar um artigo, definir seu `data-topic` e atualizar a contagem inicial. O catálogo é inteiramente legível sem JavaScript; os controles de filtro aparecem somente após a inicialização. Links com fragmento revelam artigos que estavam ocultos. Sobre Jenise tem atalhos para trajetória, formação e liderança. As regras do menu principal usam `#navigation`, separadas da `.section-nav`.
 
+Os destaques da inicial abrem diretamente o veículo de origem; manter título e botão apontando para o mesmo artigo. A chamada da newsletter explica que a inscrição ocorre no LinkedIn. Os textos permanecem em terceira pessoa até a inclusão da voz pessoal aprovada pela cliente. Datas e nomes dos veículos usam 14 px para facilitar a leitura.
+
 As quatro fotos profissionais enviadas foram incorporadas em assets/jenise-*.jpg: abertura, biografia, liderança e autoria da newsletter. Os recortes são de apresentação (CSS); arquivos originais preservados. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
 
 ## Publicação e endereços
