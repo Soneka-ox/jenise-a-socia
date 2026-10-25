@@ -76,15 +76,6 @@ document.querySelectorAll('[data-video-start]').forEach(button => {
     if (isMoment) videoSlot.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block:'center'});
   });
 });
-document.querySelector('#load-instagram')?.addEventListener('click', () => {
-  const frame = document.createElement('iframe');
-  frame.src = 'https://www.instagram.com/jenisecarvalho/embed/';
-  frame.title = 'Perfil de Jenise Carvalho no Instagram';
-  frame.referrerPolicy = 'strict-origin-when-cross-origin';
-  document.querySelector('#instagram-profile').replaceChildren(frame);
-  frame.focus({preventScroll:true});
-});
-
 // Endereços compartilhados antes da divisão em páginas continuam úteis.
 if (document.body.classList.contains('page-home')) {
   const previousDestinations = {

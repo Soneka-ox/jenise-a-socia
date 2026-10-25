@@ -2,6 +2,8 @@
 
 Jenise Carvalho · A Sócia — 25 de outubro de 2026.
 
+Atualização posterior: [teste de janela de Instagram](teste-janela-instagram-2026-10-25.md). A prévia do perfil passou a carregar ao se aproximar da seção, substituindo a ativação por clique descrita abaixo.
+
 ## Parecer
 
 O site tem uma direção visual coerente e uma organização adequada ao conteúdo disponível. A prioridade é aperfeiçoar a experiência de leitura e manter o acervo atualizado. Não há necessidade atual de novas páginas ou de uma reformulação visual.

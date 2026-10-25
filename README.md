@@ -6,7 +6,7 @@ Site pessoal e editorial de Jenise Carvalho · A Sócia. Trajetória profissiona
 
 Para servir por HTTP com Node instalado: `node scripts/preview.cjs`. Acesse `http://127.0.0.1:4173/` e encerre com Ctrl+C. O servidor atende também `/sobre/` e `/publicacoes/`. A prévia pertence a este computador e não é uma URL pública de divulgação.
 
-Não há dependências, build, formulário, analytics ou fontes externas. YouTube e Instagram são incorporados somente após clique; links alternativos abrem nas plataformas de origem. Os conteúdos incorporados dependem de internet e das regras de cada plataforma. Para testar o player, use a prévia por HTTP: arquivos abertos diretamente podem não fornecer a identificação de origem exigida pelo YouTube.
+Não há dependências de build, formulário, analytics ou fontes externas. O vídeo do YouTube é incorporado após clique. A janela do Instagram usa um iframe nativo com carregamento adiado pelo navegador e aparece ao se aproximar da seção, sem botão de ativação. Links alternativos abrem nas plataformas de origem. Os conteúdos incorporados dependem de internet e das regras de cada plataforma. Para testar o player, use a prévia por HTTP: arquivos abertos diretamente podem não fornecer a identificação de origem exigida pelo YouTube.
 
 ## Organização
 
