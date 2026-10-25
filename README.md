@@ -38,3 +38,9 @@ A seção Leituras reúne três artigos reais no LinkedIn, com data e link diret
 ## Materiais da cliente
 
 Veja `docs/materiais.md` para organizar retrato, marca e contatos. O projeto mantém a preferência por repositório público na Soneka-ox e hospedagem desativada.
+
+## Organização visual atual
+
+Apresentação → Jenise → Perspectivas → A Sócia → Leituras → Canais profissionais. Layout editorial em marfim, azul profundo e bronze, com navegação fixa e menu compacto até 900 px. A composição tipográfica da abertura apresenta a newsletter; o bloco de retrato permanece preparado para a foto original.
+
+Prévia conferida em 1440, 390 e 320 px, sem rolagem horizontal e com navegação e temas expansíveis funcionais. A prévia HTTP é local ao computador; ela não é um endereço público para divulgação.

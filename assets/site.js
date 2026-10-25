@@ -11,10 +11,13 @@ menu.addEventListener('click', () => {
   navigation.classList.toggle('is-open', open);
 });
 navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+document.addEventListener('click', event => {
+  if (!navigation.contains(event.target) && !menu.contains(event.target)) closeMenu();
+});
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
     closeMenu();
     menu.focus();
   }
 });
-window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);

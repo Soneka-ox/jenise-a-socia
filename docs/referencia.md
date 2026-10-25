@@ -23,3 +23,7 @@ A estrutura foi ajustada de serviços presumidos para temas editoriais. Serviço
 ## Leituras selecionadas
 
 Três artigos públicos foram conferidos no LinkedIn e adicionados com título, data e link de origem. A página oferece acesso ao conteúdo original, sem reproduzir os artigos. Seleção manual para revisão com Jenise.
+
+## Revisão de design e organização — 25/10/2026
+
+Ordem: apresentação, Jenise, perspectivas, A Sócia, leituras e canais profissionais. Composição editorial tipográfica na abertura; retrato reservado com monograma provisório. Avisos de desenvolvimento concentrados na faixa superior e rodapé. Perguntas sem respostas definitivas retiradas da navegação pública. Nenhuma oferta de serviço foi presumida. Paleta e fontes consolidadas em uma única folha de estilos.
