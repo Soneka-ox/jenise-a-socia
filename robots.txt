@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://soneka-ox.github.io/jenise-a-socia/sitemap.xml

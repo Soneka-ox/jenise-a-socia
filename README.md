@@ -1,6 +1,6 @@
 # Jenise Carvalho · A Sócia
 
-Site pessoal e editorial em desenvolvimento. Apresentação profissional, temas sobre gestão e governança na advocacia e seleção de publicações reais. Conteúdo e identidade ainda sujeitos à validação com Jenise.
+Site pessoal e editorial de Jenise Carvalho · A Sócia. Trajetória profissional, gestão e governança na advocacia, artigos, newsletter e vídeo.
 
 ## Prévia local
 
@@ -28,8 +28,17 @@ As descrições dos temas ficam visíveis e seus links apontam para artigos rela
 
 As quatro fotos profissionais enviadas foram incorporadas em assets/jenise-*.jpg: abertura, biografia, liderança e autoria da newsletter. Os recortes são de apresentação (CSS); arquivos originais preservados. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
 
-## Repositório e hospedagem
+## Publicação e endereços
 
-Repositório **público**: https://github.com/Soneka-ox/jenise-a-socia . Conta Soneka-ox, para transferência futura. GitHub Pages e hospedagem cloud permanecem desativados nesta etapa.
+- Repositório público: https://github.com/Soneka-ox/jenise-a-socia
+- Endereço temporário: https://soneka-ox.github.io/jenise-a-socia/
+- GitHub Pages: branch main, pasta raiz, arquivos estáticos com .nojekyll.
+- Página inicial: index.html; seções com âncoras sobre, trajetoria, atuacao, publicacoes, conversas e contato.
+- Página de erro: 404.html.
+- Endereço futuro: https://www.jeniseasocia.com.br/ (ainda não configurado).
 
-Antes de publicar o site: aprovar o conteúdo e as imagens, definir o endereço oficial, revisar necessidades de privacidade conforme os recursos escolhidos, atualizar metadados de compartilhamento e remover o bloqueio de indexação apenas quando a versão estiver pronta. A configuração atual mantém `noindex, nofollow` e `robots.txt` com `Disallow: /`.
+O nome do repositório foi mantido por ser descritivo e próximo da marca. A futura transferência para a conta Jeniseasocia deverá preservar os arquivos e o histórico. Confirmar o endereço efetivo e a disponibilidade dessa conta no momento da transferência.
+
+Na migração, revisar Pages, canonical e Open Graph em index.html, sitemap.xml, robots.txt, o endereço exibido na descrição do repositório e este README. Se o nome do repositório mudar, atualizar também o caminho de retorno da página 404. Configurar o domínio personalizado e o DNS apenas quando o domínio estiver disponível para ativação. Nenhum CNAME antecipado foi adicionado.
+
+A publicação mantém os materiais originais de cliente e qa fora do Git. Os metadados passam a permitir indexação; somente a página de erro permanece noindex.
