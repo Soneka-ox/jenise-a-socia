@@ -2,7 +2,7 @@ const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml'};
+const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.webp':'image/webp'};
 http.createServer((req,res) => {
   let pathname;
   try { pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname); }
@@ -10,7 +10,7 @@ http.createServer((req,res) => {
   const relative = pathname === '/' ? 'index.html' : pathname.slice(1);
   const file = path.resolve(root, relative);
   const ext = path.extname(file);
-  if (!file.startsWith(root + path.sep) || !['.html','.css','.js','.svg'].includes(ext) || /(^|[\\/])\./.test(relative)) {
+  if (!file.startsWith(root + path.sep) || !Object.hasOwn(mime,ext) || /(^|[\\/])\./.test(relative)) {
     res.writeHead(404); return res.end('Não encontrado');
   }
   fs.readFile(file,(error,data) => {

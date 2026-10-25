@@ -10,7 +10,7 @@ Não há dependências, build, formulário, analytics ou carregamento de fontes 
 
 ## Organização
 
-Apresentação → Sobre Jenise → Temas → Publicações (newsletter e artigos) → Canais profissionais.
+Apresentação → Sobre Jenise → Trajetória e formação → Temas → Publicações (newsletter e artigos) → Canais profissionais.
 
 - `index.html`: conteúdo e estrutura.
 - `assets/site.css`: cores, tipografia e adaptação de telas.
@@ -26,7 +26,7 @@ A paleta está no início de `assets/site.css`: `--bronze` para texto e `--accen
 
 As descrições dos temas ficam visíveis e seus links apontam para artigos relacionados. Os fragmentos antigos `#abordagem` e `#leituras` continuam disponíveis dentro de Publicações.
 
-O retrato permanece provisório; a foto original será enviada depois. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
+As quatro fotos profissionais enviadas foram incorporadas em assets/jenise-*.jpg: abertura, biografia, liderança e autoria da newsletter. Os recortes são de apresentação (CSS); arquivos originais preservados. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
 
 ## Repositório e hospedagem
 

@@ -1,27 +1,17 @@
-# Avaliação da atualização — 25/10/2026
+# Avaliação da atualização com fotografias e currículo
 
-## Resultado
+Data: 25/10/2026. Avaliação editorial e visual, não auditoria formal de acessibilidade.
 
-Aplicado o estudo de design e conteúdo: abertura descritiva, letras auxiliares ampliadas, cor de texto em bronze escurecida, temas visíveis e newsletter/artigos reunidos em Publicações. Não houve hospedagem nem adição de fotos ou ofertas não confirmadas.
+| Área | Estado | Próxima melhoria |
+| --- | --- | --- |
+| Design | Quatro fotos reais, enquadramento responsivo, paleta sóbria e hierarquia editorial | Validar marca e monograma com a cliente |
+| Organização | Biografia, trajetória, formação e contribuições separadas de temas e publicações | Refinar conforme o objetivo comercial/editorial |
+| Conteúdo | 28 arquivos analisados; fatos selecionados, sem lista exaustiva de cursos ou competências | Cliente validar cargos, datas e formação IBGC 2026 |
+| Celular | Sem rolagem horizontal nas larguras 320, 390, 768, 901 e 1440 px; menu abre e fecha por navegação e Escape | Conferir em aparelhos físicos iOS/Android |
+| Funcionamento | Quatro imagens carregadas, âncoras internas válidas; newsletter conferida na origem | Revisão final de todos os destinos externos no lançamento |
 
-| Área | Avaliação | Pendência |
-|---|---|---|
-| Design | Identidade editorial preservada; bronze para texto separado da cor decorativa. Par bronze/marfim passou de 3,93:1 para 6,02:1. | Avaliar a composição com as fotos originais e eventual manual de marca. |
-| Organização | Cinco seções principais, quatro destinos no menu; publicações próximas, sem bloco de temas repetido. | Observar o uso por pessoas do público para validar a compreensão. |
-| Conteúdo | Identifica profissional e assunto mais cedo. Textos mais concretos e links que indicam seus destinos. | Aprovação final da biografia e definição de eventuais serviços. |
-| Celular | Conferido de 320 a 900 px, além de telas maiores; letras auxiliares importantes com pelo menos 12 px nos elementos medidos. | Testar em aparelhos físicos e inserir o retrato quando enviado. |
-| Funcionamento | Menu, Escape, âncoras internas e ligação tema/artigo conferidos. Sem erros de JavaScript capturados durante a revisão. | Disponibilidade das plataformas externas não foi revalidada nesta rodada. |
-| Acessibilidade | Leitura e contraste melhorados; teste local de espaçamento ampliado sem corte nos componentes medidos. | Não equivale a auditoria completa WCAG nem teste com tecnologia assistiva. |
+## Verificação visual
+Abertura e biografia conferidas no computador; newsletter e menu conferidos em 390 px. Foto da liderança conferida no computador. Todas as imagens possuem dimensões e texto alternativo. Foto de abertura prioritária; demais sob demanda. Fotografias totalizam aproximadamente 626 KiB. Recortes só na apresentação; arquivos intactos.
 
-## Verificações realizadas
-
-- Prévia HTTP retornou 200.
-- Larguras 320, 390, 768, 900, 901 e 1440 px, com página e cabeçalho dentro da largura disponível.
-- Título da capa sem transbordamento nas larguras medidas.
-- Todos os links internos têm destino existente.
-- Menu móvel abre; Escape fecha e devolve foco ao botão.
-- Link de governança leva ao artigo relacionado dentro de Publicações.
-- Teste local com entrelinha 1,5, espaçamento entre letras 0,12 em, palavras 0,16 em e parágrafos 2 em. Identificado e corrigido um corte da capa e a acomodação do cabeçalho. Após a correção, sem transbordamento nos componentes avaliados em 320 e 390 px; a versão desktop também foi medida.
-- Sintaxe de JavaScript verificada. Não foram adicionadas dependências.
-
-A ampliação de texto a 200%, a leitura com leitor de tela e a pesquisa com usuários não foram concluídas nesta rodada. Não há promessa de resultado comercial a partir dessas verificações.
+## Limites
+Prévia local, sem hospedagem pública. As formações e experiências vêm das capturas fornecidas, sem autenticação independente de diplomas. Depoimentos incompletos não foram incluídos. Não foi executada auditoria com leitor de tela nem teste em dispositivo físico. O site mantém bloqueio de indexação enquanto está em validação.

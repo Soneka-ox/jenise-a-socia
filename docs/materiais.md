@@ -1,15 +1,19 @@
-# Organização dos materiais
+# Materiais incorporados — 25/10/2026
 
-A base funciona sem fotos e sem serviços presumidos. Para a próxima revisão:
+A atualização utiliza o currículo e as fotos fornecidos pelo responsável pelo projeto: 28 arquivos nos três lotes de currículo/carreira e quatro retratos profissionais no quarto lote.
 
-- Retrato: arquivo original em JPG, PNG ou WebP; preferir pelo menos 1200 px de largura, enquadramento vertical com espaço ao redor. Evitar capturas de tela.
-- Marca: logo e versões existentes em SVG ou PNG transparente, cores e fontes do manual, se houver. O monograma J atual é provisório.
-- Biografia: texto aprovado, formação e credenciais que deseja divulgar.
-- Atuação: confirmar se o site é exclusivamente pessoal/editorial ou também apresentará serviços, palestras e outros formatos.
-- Contato: e-mail e WhatsApp profissionais autorizados para divulgação.
+## No site
+- Biografia: Direito, gestão, governança, compliance e desenvolvimento de pessoas.
+- Trajetória: coordenação jurídica, FUNCEF, implantação do MJAB no Rio, gestão em Brasília e sociedade patrimonial.
+- Formação: UNIP, Estácio, FGV e IBGC; complemento em G4, governança, finanças e mentoria.
+- Contribuições: Alumna, SHE e comissões da OAB.
+- Quatro fotos originais em assets, com enquadramento responsivo via CSS.
+- Newsletter: https://www.linkedin.com/newsletters/a-s%C3%B3cia-6931297052869935104
 
-Guarde materiais ainda não selecionados em materiais-cliente/ (ignorado pelo Git). Use assets/images/ apenas para imagens aprovadas que entrarão no site público.
+## Critérios
+Informações selecionadas a partir das capturas fornecidas; detalhes incompletos não foram completados por suposição. Depoimentos truncados e números de recomendações não foram publicados. A apresentação usa sócia-diretora, pois o currículo descreve ingresso no MJAB em 2019 e sociedade patrimonial em 2021.
 
-O retrato substituirá o bloco .portrait na seção #sobre. A arte arquitetônica da abertura é abstrata e pode ser substituída por outra foto aprovada.
+As capturas de currículo, originais e análise detalhada permanecem em materiais-cliente/, fora do Git público. Só as quatro cópias das fotos selecionadas integram o site e o repositório.
 
-Preferências do projeto: repositório público Soneka-ox/jenise-a-socia, sem hospedagem ativa nesta etapa; transferência de propriedade será feita depois pelo responsável.
+## Próxima validação
+Confirmar com a cliente a redação final da biografia, denominações de cargos e formação IBGC 2026; definir marca oficial, finalidade comercial/editorial e contatos diretos, caso desejados. O monograma permanece provisório. Não há hospedagem ativa.
