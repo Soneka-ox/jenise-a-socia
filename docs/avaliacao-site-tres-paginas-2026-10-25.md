@@ -1,5 +1,7 @@
 # Avaliação da atualização — três páginas
 
+Revisão posterior: [usabilidade, acessibilidade e apresentação](revisao-usabilidade-2026-10-25.md), com achados, correções e limites das verificações mais recentes.
+
 Data: 25/10/2026. Escopo: organização, redação, currículo, catálogo editorial, navegação, adaptação de telas e metadados. Avaliação qualitativa, sem atribuir notas numéricas que dependam de pesquisa com usuários ou medições de campo.
 
 ## Entrega

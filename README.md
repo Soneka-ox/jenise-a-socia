@@ -22,6 +22,7 @@ Três páginas com navegação compartilhada: Início, Sobre Jenise e Publicaç�
 - `docs/estudo-design-conteudo.md`: pesquisa que orientou esta revisão.
 - `docs/avaliacao-2026-10-25.md`: avaliação e verificações da versão atual.
 - `docs/avaliacao-site-tres-paginas-2026-10-25.md`: avaliação da estrutura atual em três páginas, verificações e prioridades futuras.
+- `docs/revisao-usabilidade-2026-10-25.md`: revisão mais recente, com fontes, correções de teclado, formação, carregamento e compartilhamento.
 - `docs/catalogo-publicacoes-2026-10-25.md`: pesquisa de publicações, autoria, datas e itens pendentes de confirmação.
 
 ## Manutenção
@@ -53,4 +54,6 @@ A publicação mantém os materiais originais de cliente e qa fora do Git. Os me
 
 ## Identidade e compartilhamento
 
-Guia: docs/guia-visual-editorial.md. Capa do vídeo: assets/capa-video-casa-capta-v1.jpg. Imagem Open Graph/Twitter Card: assets/jenise-a-socia-compartilhar-v1.jpg (1200 × 630). Atualizar os metadados de imagem e a versão do arquivo ao substituir a arte. Manter origem, título e crédito do episódio.
+Guia: docs/guia-visual-editorial.md. Capa do vídeo: assets/capa-video-casa-capta-v1.jpg. Imagem Open Graph/Twitter Card: assets/jenise-a-socia-compartilhar-v2.jpg (1200 × 630), alinhada a Gestão & Carreira. A versão anterior permanece disponível para links existentes. Atualizar os metadados de imagem e a versão do arquivo ao substituir a arte. Manter origem, título e crédito do episódio.
+
+O menu fecha quando o foco sai de seus controles; o atalho de conteúdo transfere o foco para main. O quadro de formação acompanha a rolagem normal para continuar acessível em janelas baixas. A foto de abertura da biografia usa carregamento imediato. O foco dos links sobre o fundo escuro usa a cor clara da paleta.

@@ -14,6 +14,9 @@ navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', 
 document.addEventListener('click', event => {
   if (!navigation.contains(event.target) && !menu.contains(event.target)) closeMenu();
 });
+document.addEventListener('focusin', event => {
+  if (!navigation.contains(event.target) && !menu.contains(event.target)) closeMenu();
+});
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
     closeMenu();
