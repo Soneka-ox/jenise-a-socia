@@ -1,46 +1,35 @@
 # Jenise Carvalho · A Sócia
 
-Proposta estrutural e visual. Identificação atualizada para Jenise Carvalho e A Sócia a partir das referências públicas fornecidas. Não representa conteúdo profissional aprovado.
+Site pessoal e editorial em desenvolvimento. Apresentação profissional, temas sobre gestão e governança na advocacia e seleção de publicações reais. Conteúdo e identidade ainda sujeitos à validação com Jenise.
 
-## Abrir localmente
+## Prévia local
 
-Abra `index.html` no navegador. Não requer instalação, dependências, build, conexão externa ou hospedagem.
+Abra `index.html` diretamente no navegador. Para servir por HTTP com Node instalado: `node scripts/preview.cjs`. Acesse `http://127.0.0.1:4173/` e encerre com Ctrl+C. A prévia pertence a este computador e não é uma URL pública de divulgação.
 
-Para prévia por HTTP, com Node instalado: `node scripts/preview.cjs`. Acesse o endereço informado. Encerre com Ctrl+C.
+Não há dependências, build, formulário, analytics ou carregamento de fontes e imagens externas. Links para as redes abrem nas plataformas de origem.
 
 ## Organização
 
-- `index.html`: estrutura e conteúdo provisório.
-- `assets/site.css`: identidade visual, estilos responsivos e acessibilidade.
-- `assets/site.js`: menu móvel.
+Apresentação → Sobre Jenise → Temas → Publicações (newsletter e artigos) → Canais profissionais.
+
+- `index.html`: conteúdo e estrutura.
+- `assets/site.css`: cores, tipografia e adaptação de telas.
+- `assets/site.js`: menu móvel e fechamento pelo teclado/clique externo.
 - `assets/marca.svg`: monograma provisório.
-- `docs/briefing.md`: dados e materiais a reunir.
-- `docs/referencia.md`: referência e decisões de projeto.
+- `docs/briefing.md` e `docs/materiais.md`: informações e materiais pendentes.
+- `docs/estudo-design-conteudo.md`: pesquisa que orientou esta revisão.
+- `docs/avaliacao-2026-10-25.md`: avaliação e verificações da versão atual.
 
-## Personalização
+## Manutenção
 
-As cores ficam nas variáveis no início de `assets/site.css`. A página usa fontes do sistema. O retrato é um espaço gráfico provisório; substitua por uma imagem local com descrição alternativa adequada. Confirme nome, marca, serviços e textos antes de substituir os avisos de proposta.
+A paleta está no início de `assets/site.css`: `--bronze` para texto e `--accent` para detalhes decorativos. Manter o contraste também em hover e foco. A seleção de artigos é manual, com título, data e origem; não há sincronização automática nem reprodução integral de publicações.
 
-O contato é informativo enquanto não há canal confirmado. Não há envio de formulário, coleta de dados, analytics ou integrações externas.
+As descrições dos temas ficam visíveis e seus links apontam para artigos relacionados. Os fragmentos antigos `#abordagem` e `#leituras` continuam disponíveis dentro de Publicações.
 
-## Antes de publicar
+O retrato permanece provisório; a foto original será enviada depois. Confirmar a biografia e os contatos antes da divulgação. Serviços, palestras ou mentorias só devem entrar depois de confirmados. Materiais ainda não selecionados ficam em `materiais-cliente/`, ignorado pelo Git; arquivos aprovados para o site entram em `assets/`.
 
-Concluir o briefing, validar todo o conteúdo com a cliente, inserir contato e identificação profissional confirmados, revisar privacidade conforme os recursos escolhidos e só então remover `noindex, nofollow` e atualizar `robots.txt`. Definir endereço oficial antes de adicionar canonical e metadados de compartilhamento.
+## Repositório e hospedagem
 
-## GitHub e hospedagem
+Repositório **público**: https://github.com/Soneka-ox/jenise-a-socia . Conta Soneka-ox, para transferência futura. GitHub Pages e hospedagem cloud permanecem desativados nesta etapa.
 
-Repositório público: https://github.com/Soneka-ox/jenise-a-socia . Conta **Soneka-ox**, para transferência futura. Não ativar GitHub Pages nem hospedagem cloud nesta etapa. Materiais pessoais devem ficar em `materiais-cliente/` (ignorado pelo Git); apenas arquivos selecionados para o site entram em `assets/`.
-
-## Conteúdos selecionados
-
-A seção Leituras reúne três artigos reais no LinkedIn, com data e link direto. A seleção é manual: para atualizar, edite os blocos `.article-link` em `index.html`. Não há sincronização automática nem reprodução integral de publicações.
-
-## Materiais da cliente
-
-Veja `docs/materiais.md` para organizar retrato, marca e contatos. O projeto mantém a preferência por repositório público na Soneka-ox e hospedagem desativada.
-
-## Organização visual atual
-
-Apresentação → Jenise → Perspectivas → A Sócia → Leituras → Canais profissionais. Layout editorial em marfim, azul profundo e bronze, com navegação fixa e menu compacto até 900 px. A composição tipográfica da abertura apresenta a newsletter; o bloco de retrato permanece preparado para a foto original.
-
-Prévia conferida em 1440, 390 e 320 px, sem rolagem horizontal e com navegação e temas expansíveis funcionais. A prévia HTTP é local ao computador; ela não é um endereço público para divulgação.
+Antes de publicar o site: aprovar o conteúdo e as imagens, definir o endereço oficial, revisar necessidades de privacidade conforme os recursos escolhidos, atualizar metadados de compartilhamento e remover o bloqueio de indexação apenas quando a versão estiver pronta. A configuração atual mantém `noindex, nofollow` e `robots.txt` com `Disallow: /`.

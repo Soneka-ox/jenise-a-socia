@@ -27,3 +27,7 @@ Três artigos públicos foram conferidos no LinkedIn e adicionados com título, 
 ## Revisão de design e organização — 25/10/2026
 
 Ordem: apresentação, Jenise, perspectivas, A Sócia, leituras e canais profissionais. Composição editorial tipográfica na abertura; retrato reservado com monograma provisório. Avisos de desenvolvimento concentrados na faixa superior e rodapé. Perguntas sem respostas definitivas retiradas da navegação pública. Nenhuma oferta de serviço foi presumida. Paleta e fontes consolidadas em uma única folha de estilos.
+
+## Aplicação do estudo — 25/10/2026
+
+Título principal descritivo, resumos de temas visíveis, links específicos para artigos e uma única área de Publicações. Cor de texto bronze #795737 separada do destaque decorativo #9a7350. Tipografia auxiliar importante ampliada para 12 px ou mais nos elementos medidos. Avaliação registrada em docs/avaliacao-2026-10-25.md.
