@@ -61,6 +61,6 @@ A publicação mantém os materiais originais de cliente e qa fora do Git. Os me
 
 ## Identidade e compartilhamento
 
-Guia: docs/guia-visual-editorial.md. Capa do vídeo: assets/capa-video-casa-capta-v1.jpg. Imagem Open Graph/Twitter Card: assets/jenise-a-socia-compartilhar-v2.jpg (1200 × 630), alinhada a Gestão & Carreira. A versão anterior permanece disponível para links existentes. Atualizar os metadados de imagem e a versão do arquivo ao substituir a arte. Manter origem, título e crédito do episódio.
+Guia: docs/guia-visual-editorial.md. Capa do vídeo: assets/capa-video-casa-capta-v1.jpg. Imagem Open Graph/Twitter Card: assets/jenise-a-socia-compartilhar-v3.jpg (1200 × 630), alinhada a Gestão & Carreira. A versão anterior permanece disponível para links existentes. Atualizar os metadados de imagem e a versão do arquivo ao substituir a arte. Manter origem, título e crédito do episódio.
 
 O menu fecha quando o foco sai de seus controles; o atalho de conteúdo transfere o foco para main. O quadro de formação acompanha a rolagem normal para continuar acessível em janelas baixas. A foto de abertura da biografia usa carregamento imediato. O foco dos links sobre o fundo escuro usa a cor clara da paleta.

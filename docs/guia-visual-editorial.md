@@ -13,7 +13,7 @@ Abertura: retrato em pé de branco. Biografia: vestido azul. Liderança: retrato
 Ícones em SVG com desenho e espessura consistentes; sem emojis e sem caracteres de fonte usados como ícones. Ao fim da página, somente os logotipos de Instagram e LinkedIn como botões, com nomes acessíveis e foco visível.
 
 ## Capas
-- Compartilhamento: assets/jenise-a-socia-compartilhar-v2.jpg, JPEG de 1200 × 630, cerca de 81 KiB. Nome, A Sócia, posicionamento e foto em branco.
+- Compartilhamento: assets/jenise-a-socia-compartilhar-v3.jpg, JPEG de 1200 × 630, cerca de 43 KiB. Retrato circular, assinatura vetorial e posicionamento concentrados no quadrado central de 630 × 630. A composição protege o conteúdo em recortes quadrados e 3:2.
 - Vídeo: assets/capa-video-casa-capta-v1.jpg, JPEG de 1200 × 675, cerca de 85 KiB. Foto e linguagem visual do site, com identificação do Casa Capta e do canal. A capa é um elemento do site; ao carregar, a apresentação interna e os controles são do YouTube.
 
 As artes foram compostas em HTML/CSS e exportadas pelo navegador, utilizando a fotografia original. Não houve geração de uma nova pessoa ou retoque facial. Arquivos auxiliares de composição ficam em qa/, fora do repositório. Para novas versões, manter paleta, margens, legibilidade em escala reduzida e nomes de arquivo versionados.
