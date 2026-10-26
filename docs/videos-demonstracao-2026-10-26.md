@@ -37,3 +37,9 @@ Não houve reprodução de áudio, música, narração ou do episódio incorpora
 https://matheusbdc.github.io/jenise-a-socia/apresentacao/ reúne os dois conjuntos. Os arquivos anteriores do site mantêm os mesmos endereços, com uma nova versão de cache nos links da galeria. Os vídeos de Links usam o prefixo `jenise-a-socia-links-`.
 
 A galeria permanece com `noindex, nofollow`, acessível por seu link e fora da navegação principal. As quatro páginas do site não foram alteradas por esta entrega de vídeos. As capturas, os quadros de conferência e os scripts de produção permanecem na pasta local `qa/`, ignorada pelo Git.
+
+## Revisão editorial para postagem pela autora
+
+Os seis vídeos receberam chamadas em primeira pessoa e linguagem profissional. O conjunto do site se apresenta como **Meu novo site**, e o conjunto com os canais de conteúdo, como **Minhas publicações**. A chamada de apoio é **Gestão, carreira e liderança**; os encerramentos convidam a conhecer o site e acompanhar as publicações.
+
+As chamadas externas deixaram de apresentar nomes de dispositivos, temas e descrições de design. Os assuntos são apresentados como reflexões, trajetória, artigos, newsletter e canal da própria autora. A galeria e os nomes sugeridos para download acompanham essa linguagem. Os textos nas telas capturadas não foram alterados; os endereços dos arquivos e os formatos de entrega permanecem compatíveis com os links anteriores.
