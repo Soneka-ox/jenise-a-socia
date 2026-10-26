@@ -69,3 +69,9 @@ O menu fecha quando o foco sai de seus controles; o atalho de conteúdo transfer
 ## Página de links e canal do Instagram
 
 A revisão de 26/10/2026 está em `docs/pagina-links-2026-10-26.md`. A Sala da Sócia aparece em Nas redes e em Links; o destino do canal e sua frequência vêm da página pública da cliente. A newsletter é apresentada como quinzenal. A página Links usa setas e controles de tema em SVG, e o degradê da foto acompanha o fundo claro ou escuro. Atualizações de artigos continuam sendo manuais.
+
+## Demonstrações do projeto
+
+Galeria: https://matheusbdc.github.io/jenise-a-socia/apresentacao/. O site completo e a página Links têm apresentações próprias em horizontal, feed e stories, com capturas reais da revisão publicada em 26/10/2026. São seis MP4/H.264, a 30 fps, sem faixa de áudio, com capas e pacotes de download separados. A rolagem é animada dentro dos mockups, conforme informado na galeria.
+
+Os vídeos do site têm 60, 36 e 15 segundos; os de Links, 36, 30 e 15 segundos. A galeria permanece acessível pelo link, com `noindex`, fora do menu principal. Registro das capturas e das verificações em `docs/videos-demonstracao-2026-10-26.md`; materiais de produção e de conferência ficam em `qa/`, fora da publicação.
