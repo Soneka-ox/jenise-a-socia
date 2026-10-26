@@ -20,7 +20,7 @@ Nas redes abre com as janelas oficiais de Instagram e LinkedIn visíveis juntas:
 - `publicacoes/index.html`: dez artigos selecionados, newsletter, entrevistas e menções institucionais.
 - `assets/site.css`: cores, tipografia e adaptação de telas.
 - `assets/site.js`: menu móvel e fechamento pelo teclado/clique externo.
-- `assets/marca.svg`: monograma provisório.
+- `assets/marca.svg`: ícone do navegador. `marca-monograma.svg` e `marca-assinatura.svg`: versões vetoriais da identidade, com alternativas claras para fundos escuros.
 - `docs/briefing.md` e `docs/materiais.md`: informações e materiais pendentes.
 - `docs/estudo-design-conteudo.md`: pesquisa que orientou esta revisão.
 - `docs/avaliacao-2026-10-25.md`: avaliação e verificações da versão atual.
@@ -46,8 +46,8 @@ As quatro fotos profissionais enviadas foram incorporadas em assets/jenise-*.jpg
 
 ## Publicação e endereços
 
-- Repositório público: https://github.com/Soneka-ox/jenise-a-socia
-- Endereço temporário: https://soneka-ox.github.io/jenise-a-socia/
+- Repositório público: https://github.com/matheusbdc/jenise-a-socia
+- Endereço temporário: https://matheusbdc.github.io/jenise-a-socia/
 - GitHub Pages: branch main, pasta raiz, arquivos estáticos com .nojekyll.
 - Páginas: index.html, sobre/index.html e publicacoes/index.html, com canonical e metadados próprios.
 - Página de erro: 404.html.
@@ -57,7 +57,7 @@ O nome do repositório foi mantido por ser descritivo e próximo da marca. A fut
 
 Na migração, revisar Pages, canonical e Open Graph nas três páginas, sitemap.xml, robots.txt, o endereço exibido na descrição do repositório e este README. Se o nome do repositório mudar, atualizar também o caminho de retorno da página 404. Configurar o domínio personalizado e o DNS apenas quando o domínio estiver disponível para ativação. Nenhum CNAME antecipado foi adicionado.
 
-A publicação mantém os materiais originais de cliente e qa fora do Git. Os metadados passam a permitir indexação; somente a página de erro permanece noindex.
+A publicação mantém os materiais originais de cliente e qa fora do Git. Os metadados passam a permitir indexação; a página de erro e a galeria de demonstração permanecem noindex.
 
 ## Identidade e compartilhamento
 

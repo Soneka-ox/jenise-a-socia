@@ -454,3 +454,25 @@ figure{margin:0}
  .network-video .video-description h3{font-size:27px}
  .network-video .episode-notes{margin-top:24px;padding-top:23px}
 }
+
+/* Assinatura editorial: o nome da newsletter e a autoria compartilham a marca. */
+.brand{gap:14px;letter-spacing:normal}
+.brand .brand-symbol{display:block;flex:0 0 auto;width:48px;height:54px}
+.brand .brand-wordmark{display:block;min-width:0;white-space:nowrap}
+.brand .brand-title{display:block;font:32px/1.08 var(--serif);letter-spacing:-.8px;color:var(--navy)}
+.brand .brand-author{display:block;margin-top:5px;font-size:11px;line-height:1.4;font-weight:600;letter-spacing:1.4px;color:var(--bronze)}
+footer .brand{gap:12px}
+footer .brand .brand-symbol{width:42px;height:47.25px}
+footer .brand .brand-title{font-size:30px}
+@media(max-width:650px){
+ .header .brand{gap:11px}
+ .header .brand .brand-symbol{width:42px;height:47.25px}
+ .header .brand .brand-title{font-size:30px}
+ .header .brand .brand-author{font-size:10.5px;letter-spacing:1.2px;margin-top:4px}
+}
+@media(max-width:360px){
+ .header .brand{gap:9px}
+ .header .brand .brand-symbol{width:36px;height:40.5px}
+ .header .brand .brand-title{font-size:28px}
+ .header .brand .brand-author{font-size:10px;letter-spacing:1px}
+}
