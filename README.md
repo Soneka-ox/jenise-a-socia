@@ -12,10 +12,10 @@ Não há dependências de build, formulário, analytics ou fontes externas. O v�
 
 Três páginas com navegação compartilhada: Início, Sobre Jenise e Publicações. Nas redes é uma seção da página inicial e reúne vídeo, Instagram e uma prévia oficial de A Sócia no LinkedIn. Todas as páginas preservam os botões de logotipo de Instagram e LinkedIn no fim.
 
-Com JavaScript, Nas redes apresenta um canal por vez nas abas Vídeo, Instagram e Newsletter. Sem JavaScript, os três continuam no HTML e os atalhos são links comuns. Fragmentos antigos e links para elementos internos selecionam o painel correspondente. Trocar de canal remove um player do YouTube carregado e restaura a capa, para interromper a reprodução.
+Nas redes abre com as janelas oficiais de Instagram e LinkedIn visíveis juntas: duas colunas no computador e uma no celular. O vídeo e os quatro trechos ficam em uma expansão nativa logo abaixo, disponível também sem JavaScript. Links antigos para o vídeo abrem a expansão correspondente. Fechar a expansão remove o player carregado e restaura a capa, interrompendo a reprodução.
 
-- `index.html`: abertura, apresentação breve, três destaques, newsletter, vídeo e Instagram.
-- A newsletter da inicial aparece uma única vez, dentro de Nas redes, no fragmento preservado `#abordagem`. O iframe exibe uma publicação pública selecionada do LinkedIn; novas edições exigem trocar o post, o link alternativo, o título e a data. O botão da newsletter continua levando ao acervo de A Sócia.
+- `index.html`: abertura, apresentação breve, três destaques, janelas de Instagram e LinkedIn, vídeo e trechos.
+- A newsletter da inicial aparece uma única vez, dentro de Nas redes, no fragmento preservado `#abordagem`. O iframe exibe uma publicação pública selecionada do LinkedIn; novas edições exigem trocar o post, o link alternativo e o título do iframe. O botão da newsletter continua levando ao acervo de A Sócia.
 - `sobre/index.html`: biografia, trajetória, formação, liderança e contribuições.
 - `publicacoes/index.html`: dez artigos selecionados, newsletter, entrevistas e menções institucionais.
 - `assets/site.css`: cores, tipografia e adaptação de telas.

@@ -41,69 +41,26 @@ function loadEpisode(start) {
   frame.focus({preventScroll:true});
 }
 
-// Sem JavaScript, os três canais continuam visíveis e os atalhos são links comuns.
-const networkSection = document.querySelector('#conversas');
-if (networkSection) {
-  const tabs = [...networkSection.querySelectorAll('[data-network]')];
-  const panels = [...networkSection.querySelectorAll('[data-network-panel]')];
-  const tablist = networkSection.querySelector('.networks-nav');
-  function selectNetwork(name) {
-    if (name !== 'video' && videoSlot.querySelector('iframe')) videoSlot.replaceChildren(videoCover);
-    tabs.forEach(tab => {
-      const selected = tab.dataset.network === name;
-      tab.setAttribute('aria-selected', String(selected));
-      tab.tabIndex = selected ? 0 : -1;
-    });
-    panels.forEach(panel => { panel.hidden = panel.dataset.networkPanel !== name; });
-  }
-  function linkedPanel() {
+// As duas redes ficam visíveis; o vídeo usa uma expansão nativa.
+const episodeDisclosure = document.querySelector('.network-video-disclosure');
+if (episodeDisclosure) {
+  function revealEpisodeLink() {
     const id = window.location.hash.slice(1);
     const target = id && document.getElementById(id);
-    return target && target.closest('.network-panel');
+    if (!target || !episodeDisclosure.contains(target)) return;
+    let disclosure = target.closest('details');
+    while (disclosure && episodeDisclosure.contains(disclosure)) {
+      disclosure.open = true;
+      disclosure = disclosure.parentElement.closest('details');
+    }
+    episodeDisclosure.open = true;
+    target.scrollIntoView({block:'start', behavior:'instant'});
   }
-  tablist.setAttribute('role', 'tablist');
-  tablist.setAttribute('aria-orientation', 'horizontal');
-  tabs.forEach((tab, index) => {
-    const panel = panels.find(item => item.dataset.networkPanel === tab.dataset.network);
-    tab.id = 'rede-' + tab.dataset.network;
-    tab.setAttribute('role', 'tab');
-    tab.setAttribute('aria-controls', panel.id);
-    panel.setAttribute('role', 'tabpanel');
-    panel.setAttribute('aria-labelledby', tab.id);
-    panel.tabIndex = 0;
-    tab.addEventListener('click', event => {
-      event.preventDefault();
-      selectNetwork(tab.dataset.network);
-      window.history.replaceState(null, '', tab.getAttribute('href'));
-    });
-    tab.addEventListener('keydown', event => {
-      let next;
-      if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
-      if (event.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
-      if (event.key === 'Home') next = 0;
-      if (event.key === 'End') next = tabs.length - 1;
-      if (next !== undefined) {
-        event.preventDefault();
-        tabs.forEach((item, i) => { item.tabIndex = i === next ? 0 : -1; });
-        tabs[next].focus();
-      } else if (event.key === ' ') {
-        event.preventDefault();
-        selectNetwork(tab.dataset.network);
-        window.history.replaceState(null, '', tab.getAttribute('href'));
-      }
-    });
+  episodeDisclosure.addEventListener('toggle', () => {
+    if (!episodeDisclosure.open && videoSlot.querySelector('iframe')) videoSlot.replaceChildren(videoCover);
   });
-  const initialPanel = linkedPanel();
-  selectNetwork(initialPanel ? initialPanel.dataset.networkPanel : 'video');
-  networkSection.classList.add('networks-enhanced');
-  function revealNetworkLink() {
-    const panel = linkedPanel();
-    if (!panel) return;
-    selectNetwork(panel.dataset.networkPanel);
-    document.getElementById(window.location.hash.slice(1)).scrollIntoView({block:'start', behavior:'instant'});
-  }
-  window.addEventListener('hashchange', revealNetworkLink);
-  if (initialPanel) revealNetworkLink();
+  window.addEventListener('hashchange', revealEpisodeLink);
+  revealEpisodeLink();
 }
 
 // Sem JavaScript, a seleção completa continua disponível no HTML.

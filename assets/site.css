@@ -400,34 +400,35 @@ figure{margin:0}
 #article-catalog .publication-featured>p:not(.article-meta):not(.card-theme){max-width:750px}
 #article-catalog .publication-featured>.text-link{margin-top:0}
 
-/* Cada canal tem seu próprio espaço; os links viram abas após a inicialização. */
-.network-panel+.network-panel{margin-top:38px}
-.networks-enhanced .network-panel{margin-top:0}
-.networks-enhanced .networks-nav{gap:4px;padding:0;border-top:0;border-bottom:1px solid var(--line);margin:0 0 28px}
-.networks-nav [role="tab"]{justify-content:center;padding:12px 22px;min-height:48px;border-bottom:2px solid transparent;margin-bottom:-1px;font-size:15px}
-.networks-nav [role="tab"][aria-selected="true"]{color:var(--bronze);border-bottom-color:var(--bronze);font-weight:600}
-.network-panel:focus-visible{outline:3px solid var(--bronze);outline-offset:5px}
+/* As prévias de Instagram e LinkedIn abrem a seção juntas. */
+.network-previews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:stretch}
+.network-previews .network-panel{min-width:0}
+.network-previews .social-preview-card{display:flex;flex-direction:column;height:100%;min-width:0;padding:0;border:1px solid var(--line);background:var(--white)}
+.social-preview-heading{padding:24px 26px 22px;min-height:160px}
+.social-preview-heading .eyebrow{color:var(--bronze);margin-bottom:10px}
+.social-preview-heading h3{font:32px/1.2 var(--serif);letter-spacing:-.4px;overflow-wrap:anywhere;margin-bottom:12px}
+.social-preview-heading>p:not(.eyebrow){font-size:15px;color:var(--muted)}
+.network-previews .social-preview-frame{width:100%;margin:0;border:0;border-block:1px solid var(--line);background:white}
+.network-previews .social-preview-frame iframe{display:block;width:100%;height:560px;border:0;background:white}
+.social-preview-links{display:flex;flex-wrap:wrap;align-items:flex-start;gap:0 24px;padding:10px 26px 18px;margin-top:auto}
+.social-preview-links .text-link{font-size:14px}
+.social-preview-card:focus-visible{outline:3px solid var(--bronze);outline-offset:5px}
+.network-video-disclosure{margin-top:32px}
+.network-video-disclosure>summary{padding-block:22px;font-weight:400}
+.network-video-disclosure>summary .eyebrow{display:block;margin-bottom:8px;color:var(--bronze)}
+.video-disclosure-title{display:block;font:27px/1.25 var(--serif);letter-spacing:-.3px}
+.network-video-disclosure[open]>summary{margin-bottom:25px}
+.network-video{padding-bottom:26px}
 .network-video .video-card{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:32px;align-items:start;background:transparent;border:0}
 .network-video .video-description{padding:0}
 .network-video .video-description h3{font-size:29px}
 .network-video .episode-notes{margin-top:30px;padding-top:26px}
-.network-instagram .instagram-card{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);grid-template-rows:min-content 1fr;gap:0 48px;max-width:none;width:100%;padding:0;border:0;background:transparent}
-.network-instagram .instagram-heading{grid-column:1;grid-row:1}
-.network-instagram .instagram-heading h3{font-size:34px}
-.network-instagram .instagram-heading p:not(.eyebrow){font-size:16px;max-width:340px}
-.network-instagram .instagram-slot{grid-column:2;grid-row:1/3;justify-self:end;width:100%;max-width:480px;border:1px solid var(--line);margin:0}
-.network-instagram .instagram-slot iframe{height:500px}
-.network-instagram .instagram-card>.text-link{grid-column:1;grid-row:2;align-self:start;justify-self:start;margin-top:0}
-.network-newsletter .newsletter-preview{margin:0;padding:0;background:transparent;align-items:center;gap:48px}
-.network-newsletter .newsletter-preview h3{font-size:44px}
-.network-newsletter .linkedin-slot{margin:0}
-.conversations>.media-note{margin-top:26px}
 @media(max-width:900px){
+ .network-previews{gap:22px}
+ .social-preview-heading{padding:22px 20px;min-height:176px}
+ .social-preview-heading h3{font-size:29px}
+ .social-preview-links{padding-inline:20px}
  .network-video .video-card{grid-template-columns:1fr;gap:24px}
- .network-instagram .instagram-card{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:0 28px}
- .network-instagram .instagram-heading h3{font-size:28px}
- .network-instagram .instagram-slot iframe{height:440px}
- .network-newsletter .newsletter-preview{gap:24px}
 }
 @media(max-width:650px){
  .editorial-title,.home-intro .editorial-title{font-size:30px}
@@ -442,14 +443,14 @@ figure{margin:0}
  .catalog-grid .publication-card h3{font-size:26px}
  #article-catalog .publication-featured{padding:23px 20px;margin-bottom:0}
  #article-catalog .publication-featured h3{font-size:30px}
- .networks-enhanced .networks-nav{gap:0;margin-bottom:24px;flex-wrap:nowrap}
- .networks-nav [role="tab"]{flex:1;padding:10px 8px;min-width:0;font-size:14px}
+ .network-previews{grid-template-columns:1fr;gap:24px}
+ .social-preview-heading{min-height:0;padding:22px}
+ .social-preview-heading h3{font-size:29px}
+ .network-previews .instagram-slot iframe{height:480px}
+ .network-previews .linkedin-slot iframe{height:620px}
+ .social-preview-links{padding:8px 22px 16px}
+ .network-video-disclosure{margin-top:26px}
+ .video-disclosure-title{font-size:25px}
  .network-video .video-description h3{font-size:27px}
  .network-video .episode-notes{margin-top:24px;padding-top:23px}
- .network-instagram .instagram-card{display:block;max-width:480px;margin-inline:auto}
- .network-instagram .instagram-heading h3{font-size:29px}
- .network-instagram .instagram-slot{max-width:none;margin:0}
- .network-instagram .instagram-slot iframe{height:420px}
- .network-instagram .instagram-card>.text-link{margin-top:14px}
- .network-newsletter .newsletter-preview h3{font-size:34px}
 }
